@@ -1,3 +1,44 @@
+
+html, body {
+    width:100%;
+    height:100%;
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+}
+
+.skrollable {
+    /*
+     * First-level skrollables are positioned relative to window
+     */
+    position:fixed;
+
+    /*
+     * Skrollables by default have a z-index of 100 in order to make it easy to position elements in front/back without changing each skrollable
+     */
+    z-index:100;
+}
+
+.skrollr-mobile .skrollable {
+    /*
+            May cause issues on Android default browser (see #331 on GitHub).
+    */
+    position:absolute;
+}
+
+.skrollable .skrollable {
+    /*
+     * Second-level skrollables are positioned relative their parent skrollable
+     */
+    position:absolute;
+}
+
+.skrollable .skrollable .skrollable {
+    /*
+     * Third-level (and below) skrollables are positioned static
+     */
+    position:static;
+}
 .clearfix::after {
     content: "";
     clear: both;
@@ -6,6 +47,8 @@
 body{
     background: #fff000;
     overflow: hidden;
+    width:100%;
+    height:100%;
 }
 .hsContent{
     text-align: center;
@@ -42,8 +85,16 @@ h3{
     height: 100%;
     width: 100%;
 }
-#slide-1{
-    position:fixed;
+#slide-1, #slide-2{
+}
+#slide-2{
+    width:100%;
+    max-height: 963px;
+    top:200%;
+    z-index: 10000;
+}
+#slide-2 img{
+    width:100%;
 }
 #slide-1 .bcg {
     background:transparent;
@@ -60,7 +111,7 @@ h3{
         margin:0 auto;
     }
     .page-intro img{
-       width:100%;
+        width:100%;
         display:block;
     }
     .page-intro p{
