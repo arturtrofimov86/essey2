@@ -111,6 +111,944 @@ h3{
     height:880px;
     z-index: 10000;
 }
+.progress-bar{
+    max-width:400px;
+    height:90px;
+}
+.desc{
+    background:rgba(255, 255, 255, 0.9);
+    padding:45px;
+    max-width:800px;
+    top:7%;
+}
+.desc h3{
+    font-weight:700;
+    color: #282828;  
+    padding-bottom:30px;
+    margin:0;
+    text-align:left;
+}
+.desc h3 span{
+    color: #0a629a;
+    text-align: left;
+}
+.desc-first-draft h3 span{
+    color: #445b6f;
+}
+.desc-clarification h3 span{
+    color: #28939a; 
+}
+.desc-rewrite h3 span{
+    color: #863232; 
+}
+.desc-citations h3 span{
+    color: #50397b;  
+}
+.desc-profreading h3, .desc.desc-profreading p, .desc.desc-breaks p, .desc.desc-priceles p{
+    text-align: right;
+}
+.desc-profreading h3 span{
+    color: #2186a4;
+}
+.desc-snacks h3 span{
+    color: #e58616;   
+}
+.desc-breaks h3 span{
+    color: #5675a7;   
+}
+.desc.desc-breaks{
+    max-width:500px;
+}
+.desc-catnap h3 span{
+    color: #9c5114;  
+}
+.desc-protein-bars h3 span{
+    color: #9a7d36;
+}
+.desc-coffee h3 span{
+    color: #285889;  
+}
+.desc-sushi h3 span{
+    color: #527322; 
+}
+.desc-water h3 span{
+    color: #2e679c;   
+}
+.desc-priceles h3 span{
+    color: #7b3535;   
+}
+.desc-drink h3 span{
+    color: #a47e2b;   
+}
+.desc p{
+    color: black;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align:left;
+}
+.desc .author{
+    text-align:right;
+    font-weight: 300;
+    font-style: italic;
+    font-family: Roboto;
+    font-size:16px;
+    line-height: 30px;
+}
+.book{
+    max-width:600px;
+    width:100%;
+}
+.book-one img{
+    width:100%;
+}
+.laptop-display{
+    text-align: center;
+    z-index: 100000;
+    width:100%;
+    height:100%;
+    max-width:752px;
+    max-height:436px;
+    top:20%;left:40%;
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+}
+
+.laptop-display > img{
+    position: absolute !important;
+    z-index: 1000000;
+}
+.skype-window{
+    max-width: 520px;
+    width: 100%;
+    left: 59%;
+    top: -20%;
+    transform: translate(-50%); 
+}
+.load-bar{
+    max-width: 600px;
+    width: 100%;
+    left: 55%;
+    top: 5%;
+    transform: translate(-50%);
+}
+.red-line1{
+    left: 14%;
+    width: 420px;
+}
+.red-line3{
+    right:2%;
+    width: 100px;
+    top:-10%;
+}
+.red-line2{
+    left: 14%;
+    width: 300px;
+    top:12%;
+}
+.red-line4{
+    left: 14%;
+    width: 250px;
+    top:-12%;
+}
+.red-line5{
+    left: 14%;
+    width: 150px;
+    top:-24%;
+}
+.red-line6{
+    right:2%;
+    width: 150px;
+    top:-24%;
+}
+.red-line7{
+    right:2%;
+    width: 150px;
+    top:39%;
+}
+.red-line8{
+    left:14%;
+    width: 150px;
+    top:39%;
+}
+.red-line9{
+    left:34%;
+    width: 150px;
+    top:39%;
+}
+.line1{
+    left: 14%;
+    max-width: 623px;
+    top: -24%;
+    height:20px;
+}
+.line2{
+    left: 14%;
+    max-width: 623px;
+    top:-15%;
+    height:20px;
+}
+.line3{
+    left: 14%;
+    max-width: 623px;
+    top:-5%;
+    height:20px;
+}
+.line4{
+    left: 14%;
+    max-width: 623px;
+    top: 10%;
+    height:20px;
+}
+.line5{
+    left: 14%;
+    max-width: 623px;
+    top: 22%;
+    height:20px;
+}
+.line6{
+    left: 14%;
+    max-width: 623px;
+    top: 35%;
+    height:20px;
+}
+.load-bar-per{
+    height: 100px;
+    left: 16%;
+    top: 6%;
+}
+.professor{
+    width: 100%;
+    left: 39%;
+    top: -6%;
+    max-width: 300px;
+}
+.banana01{
+    width:533px;  
+    top: 50%;
+    left: 15%;
+    z-index: 10000000;
+}
+.banana02{
+    width:500px;
+    top: 65%;
+    right:7%;
+    z-index: 10000000;
+}
+.banana01 img, .banana02 img{
+    width:100%;
+    height:100%;
+}
+.youtube{
+    width:530px;
+    left: 22%;
+    top: -23%;
+}
+.cat-yt{
+    max-width: 422px;
+    left: 30%;
+    top: -13%;
+}
+.cat2{
+    left:0;
+    bottom:5%;
+    z-index: 100000;
+    width:600px;
+}
+.cat5{
+    top:0;
+    z-index: 100000;
+    width:388px;
+}
+.cat4{
+    top:-20%;
+    z-index: 100000;
+    width:600px;
+}
+.cat3{
+    bottom:-12%;
+    z-index: 100001;
+    width:800px;
+}
+.cat1 img, .cat2 img, .cat3 img, .cat4 img, .cat5 img{
+    width:100%;
+}
+.battery1{
+    max-width:370px;
+    left:34%;
+}
+.battery2{
+    max-width:70px;
+    top:7%;
+    left:40%;
+}
+.emoji{
+    width:200px;
+    height:200px;
+    z-index: 10000;
+}
+.emoji img{
+    width:100%;
+    height:100%;
+}
+.emoji1{
+    left:32%;  
+}
+.emoji2{
+    right:8%;
+}
+.emoji3{
+    right:12%;
+    width:170px;
+    height:170px;
+}
+.emoji4{
+    right:20%;
+}
+.protein-bar{
+    width:400px;
+    top:75%;
+    left:11%;
+    z-index: 10000;
+}
+.protein-bar2{
+    top:76%;
+    left:50%;
+}
+.protein-bar4{
+    top:76%;
+    left:30%;
+}
+.protein-bar3{
+    top:70%;
+    left:69%;
+}
+.protein-bar img, .coffee img, .sushi img, .water img, .man img{
+    width:100%;
+    height:100%;
+}
+.coffee{
+    width:300px;
+    z-index: 10000;
+}
+.coffee1{
+    left:25%;
+    top:40%;
+}
+.coffee2{
+    right:7%;
+    top:45%;
+}
+.coffee3{
+    right:7%;
+    top:7%;
+}
+.sushi{
+    width:550px;
+    z-index: 10000;
+    top:64%;
+    left:30%;
+}
+.water{
+    width:200px;
+    z-index: 10000;
+    top:26%;
+}
+.water1{
+    left:15%;
+}
+.water2{
+    right:10%;
+}
+.man{
+    left:50%;
+    transform:translate(-50%);
+    -webkit-transform:translate(-50%);
+    width:1300px;
+    z-index: 10000;
+}
+.man img{
+    opacity: 0.7;
+}
+.last-photo{
+    right:20%;
+}
+.load-bar-per{
+
+}
+.time{
+    bottom:3%;
+    left:3%;
+    text-align:left;
+}
+.money{
+    bottom:3%;
+    right:3%;
+    text-align: right;
+}
+.time div:first-of-type, .money div:first-of-type{
+    color:rgba(0, 0, 0 , 0.5);
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 33px;
+    text-transform: uppercase;  
+}
+.time div:last-of-type, .money div:last-of-type{
+    color: #282828;
+    font-family: Amatic SC;
+    font-size: 64px;
+    font-weight: 700;
+}
+.last-photo{
+    transform:rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    z-index: 10000;
+}
+.links-content{
+    bottom:0;
+    left:0;
+    right:0;
+    overflow:hidden;
+    padding:50px;
+}
+.links-content a{
+    display: block;
+    text-align: left;
+    padding-bottom:10px;
+    color:#0c3eb1;
+    font-size:12px;
+}
+.links-content .left-col{
+    float:left;
+
+}
+.links-content .left-col a:nth-of-type(2n){
+    color:#ad1830;
+}
+.links-content .right-col a:nth-of-type(2n+1){
+    color:#ad1830;
+}
+.links-content .right-col{
+    float:right;
+
+}
+@media(max-width:1920px){
+    .last-photo{
+        width:500px;
+    }
+    .last-photo img{
+        width:100%;
+    }
+    .page-intro img{
+        width:500px;
+        height:500px;
+    }
+    .desc.desc-breaks{
+        max-width:500px;
+    }
+    .page-intro h1{
+        padding:50px 0 50px 0;
+    }
+    .laptop-img-wrap{
+        width:900px;
+    }
+    .desc{
+        max-width:450px;
+    }
+    .skype-window{
+        left: 56%;
+        top: -26%;
+    }
+
+}
+@media(max-width:1600px){
+    h1{
+        font-size:55px;
+        padding:30px 0 30px 0;
+    }
+    .laptop-img-wrap{
+        width:600px;
+    }
+    .laptop-img-wrap .laptop-img{
+        width:600px;
+    }
+    .load-bar{
+        width:400px;
+        left: 51%;
+        top: 1%;
+    }
+    .load-bar-per {
+        height: 50px;
+        left: 22%;
+        top: 3%;
+    }
+    .skype-window{
+        max-width:350px;
+        width: 100%;
+        left: 51%;
+        top:-19%;
+        transform: translate(-50%); 
+    }
+    .professor{
+        max-width:200px; 
+        left: 37%;
+        top: -10%;
+    }
+    .line1 {
+        left: 19%;
+        top: -15%;
+    }
+    .line2 {
+        left: 19%;
+        top: 20%;
+    }
+    .line3 {
+        left: 19%;
+        top: -9%;
+    }
+    .line4 {
+        left: 19%;
+        top: -1%;
+    }
+    .line5 {
+        left: 17%;
+        top: 7%;
+    }
+    .line6 {
+        left: 19%;
+        top: 15%;
+    }
+    .book{
+        max-width:400px;
+        width:100%;
+    }
+    .cat-yt {
+        max-width: 300px;
+        left: 26%;
+        top: -12%;
+    }
+    .youtube{
+        width:350px;
+        top:-18%;
+    }
+    .battery1{
+        max-width:230px;
+        left:34%;
+    }
+    .battery2{
+        max-width:50px;
+        top:2%;
+        left:40%;
+    }
+    .protein-bar{
+        width:300px;
+        top:71%;
+        left:15%;
+        z-index: 10000;
+    }
+    .protein-bar2{
+        top:71%;
+        left:40%;
+    }
+    .protein-bar4{
+        top:71%;
+        left:25%;
+    }
+    .protein-bar3{
+        top:70%;
+        left:60%;
+    }
+    .coffee{
+        width:250px;
+        z-index: 10000;
+    }
+    .coffee3 {
+        right: 7%;
+        top: 12%;
+    }
+    .sushi{
+        width:440px;
+    }
+    .water{
+        width:200px;
+    }
+    .red-line5 {
+        left: 18%;
+        width: 114px;
+        top: -13%;
+    }
+    .red-line4 {
+        left: 18%;
+        width: 220px;
+        top: -7%;
+    }
+    .red-line3 {
+        right: 19%;
+        width: 75px;
+        top: -6%;
+    }
+    .red-line6 {
+        right: 18%;
+        width: 116px;
+        top: -13%;
+    }
+    .red-line1 {
+        left: 19%;
+        top: 1%;
+        width: 300px;
+    }
+    .red-line9 {
+        left: 34%;
+        width: 125px;
+        top: 21%;
+    }
+    .red-line7 {
+        right: 17%;
+        width: 132px;
+        top: 21%;
+    }
+    .red-line2 {
+        left: 26%;
+        width: 233px;
+        top: 7%;
+    }
+    .red-line8 {
+        left: 18%;
+        width: 101px;
+        top: 22%;
+    }
+    .time{
+        left:10%;
+    }
+    .money{
+        right:10%;
+    }
+    .time div:last-of-type, .money div:last-of-type{
+        font-size:70px;
+    }
+}
+@media(max-width:1366px){
+    h1{
+        font-size:50px;
+        padding:20px 0 20px;
+    }
+    .page-intro img{
+        width:300px;
+        height:300px;
+    }
+    .page-intro p{
+        font-size:24px;
+    }
+    .laptop-img-wrap{
+        width:500px;
+    }
+    .laptop-img-wrap .laptop-img{
+        width:500px;
+    }
+    .desc{
+        max-width:300px;
+        padding:10px;
+    }
+    .desc h3{
+        padding-bottom:10px;
+    }
+    .load-bar{
+        width:300px;
+        left: 50%;
+        top: 1%;
+    }
+    .professor{
+        max-width:150px; 
+        left: 37%;
+        top: -10%;
+    }
+    .book{
+        max-width:350px;
+        width:100%;
+    }
+    .skype-window{
+        max-width:250px;
+        width: 100%;
+        left: 50%;
+        top:-15%;
+        transform: translate(-50%); 
+    }
+    .banana01{
+        width:333px;  
+        top: 50%;
+        left: 21%;
+    }
+    .banana02{
+        width:300px;
+        top: 60%;
+        right: 21%;
+    }
+    .cat-yt{
+        max-width:200px;
+        left: 30%;
+        top: -8%;
+    }
+    .youtube{
+        width:280px;
+        top:-15%;
+    }
+    .cat3{
+        width:380px;
+    }
+    .cat5{
+        width:200px;
+    }
+    .cat4{
+        width:300px;
+        top:-12%;
+    }
+    .cat2{
+        width:302px;
+        bottom:0;
+    }
+    .cat2 img, .cat3 img, .cat4 img, .cat5 img{
+        width:100%; 
+    }
+    .battery1{
+        max-width:170px;
+        left:34%;
+    }
+    .battery2{
+        max-width: 31px;
+        top: 3%;
+        left: 40%;
+    }
+    .emoji{
+        width:100px;
+        height:100px;
+    }
+    .protein-bar{
+        width:276px;
+        top:71%;
+        left:15%;
+        z-index: 10000;
+    }
+    .protein-bar2{
+        top:71%;
+        left:40%;
+    }
+    .protein-bar4{
+        top:71%;
+        left:25%;
+    }
+    .protein-bar3{
+        top:70%;
+        left:60%;
+    }
+    .coffee{
+        width:150px;
+        z-index: 10000;
+    }
+    .sushi{
+        width:290px;
+    }
+    .water{
+        width:100px;
+    }
+    .man{
+        width:700px;
+    }
+    .last-photo{
+        width:300px;
+    }
+    .last-photo img{
+        width:100%;
+    }
+    .load-bar-per {
+        height: 40px;
+        left: 22%;
+        top: 3%;
+    }
+    .line1 {
+        left: 17%;
+        max-width: 325px;
+        top: -15%;
+    }
+    .line2 {
+        left: 17%;
+        max-width: 335px;
+        top: 20%;
+    }
+    .line3 {
+        left: 16%;
+        max-width: 340px;
+        top: -9%;
+    }
+    .line4 {
+        left: 17%;
+        max-width: 322px;
+        top: -1%;
+    }
+    .line5 {
+        left: 15%;
+        max-width: 327px;
+        top: 7%;
+    }
+    .line6 {
+        left: 17%;
+        max-width: 322px;
+        top: 15%;
+    }
+    .coffee3{
+        top:17%;
+    }
+
+}
+@media(max-width:1280px){
+    .coffee3{
+        top:26%;
+    } 
+    .coffee1{
+        top:47%;
+    }
+    .water{
+        top:37%;
+    }
+}
+@media(max-width:800px){
+    .desc h3{
+        font-size:40px;
+    }
+}
+@media(max-width:640px){
+    .laptop-img-wrap{
+        width:300px;
+    }
+    .laptop-img-wrap .laptop-img{
+        width:300px;
+    } 
+    .load-bar-per {
+        height: 20px;
+        left: 18%;
+        top: 1%;
+    }
+    .load-bar {
+        width: 170px;
+        left: 43%;
+        top: -1%;
+    }
+    .skype-window{
+        max-width: 170px;
+        width: 100%;
+        left: 44%;
+        top: -19%;
+    }
+    .professor {
+        max-width: 124px;
+        left: 24%;
+        top: -13%;
+    }
+    .line6, .line5, .line1, .line2, .line4, .line3{
+        max-width: 177px;
+    }
+    .red-line5 {
+        left: 18%;
+        width:30px;
+        top: -13%;
+    }
+    .red-line4 {
+        left: 18%;
+        width: 100px;
+        top: -7%;
+    }
+    .red-line3 {
+        right:25%;
+        width: 30px;
+        top: -6%;
+    }
+    .red-line6 {
+        right: 25%;
+        width: 30px;
+        top: -13%;
+    }
+    .red-line1 {
+        left: 19%;
+        top: 1%;
+        width: 30px;
+    }
+    .red-line9 {
+        left: 34%;
+        width: 50px;
+        top: 21%;
+    }
+    .red-line7 {
+        right:26%;
+        width: 30px;
+        top: 21%;
+    }
+    .red-line2 {
+        left: 26%;
+        width: 100px;
+        top: 7%;
+    }
+    .red-line8 {
+        left: 18%;
+        width: 30px;
+        top: 22%;
+    }
+    .banana01{
+        left:-6%;
+    }
+    .banana02{
+        right:-4%;
+    }
+    .cat3 {
+        bottom: -1%;
+    }
+    .cat4{
+        top:-5%;
+    }
+    .youtube {
+        width: 153px;
+    }
+    .cat-yt {
+        max-width: 100px;
+    }
+    .battery1 {
+        max-width: 80px;
+    }
+    .battery2 {
+        max-width: 16px;
+    }
+    .protein-bar {
+        width: 185px;
+        top: 61%;
+        left: -3%;
+    }
+    .protein-bar4 {
+        top: 63%;
+        left: 23%;
+    }
+    .protein-bar3 {
+        top: 65%;
+        left: 64%;
+    }
+    .protein-bar2 {
+        top: 68%;
+        left: 46%;
+    }
+    .coffee1{
+        left:0%;
+    }
+    .coffee2 {
+        right: -2%;
+    }
+    .coffee3 {
+        top: 31%;
+        right: -2%;
+    }
+    .coffee {
+        width: 106px;
+    }
+    .last-photo {
+        width: 215px;
+    }
+}
 @media(max-width:640px){
     .laptop-img-wrap, .laptop-img{
         max-width:300px;
