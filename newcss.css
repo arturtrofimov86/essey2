@@ -1,2 +1,54 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+body{
+    background: #fff000;
+    overflow: hidden;
+}
+.hsContent{
+    text-align: center;
+    width:100%;
+}
+h1{
+    color: black;
+    font-family: Amatic SC;
+    font-size: 72px;
+    font-weight: 700;
+    padding-top:70px;
+    padding-bottom:70px;
+    margin:0;
+}
+h3{
+    font-size:60px;
+    font-family: Amatic SC;   
+}
 
+.page-intro p{
+    color: black;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom:100px;
+    margin:0;
+}
+.bcg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#slide-1{
+    position:fixed;
+}
+#slide-1 .bcg {
+    background:transparent;
+}
+#slide-1 .hsContent, #slide-1 .hsContainer{
+    width:100%;
+}
 
