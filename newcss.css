@@ -112,7 +112,7 @@ h3{
     z-index: 10000;
 }
 @media(max-width:640px){
-    .laptop-img-wrap{
+    .laptop-img-wrap, .laptop-img{
         max-width:300px;
         height:200px;
     }
