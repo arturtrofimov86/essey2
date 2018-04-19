@@ -102,6 +102,15 @@ h3{
 #slide-1 .hsContent, #slide-1 .hsContainer{
     width:100%;
 }
+.laptop-img-wrap{
+    left:50%;
+    top:50%;
+    transform:translateX(-50%) translateY(-50%);
+    -webkit-transform:translateX(-50%) translateY(-50%);
+    width:1020px;
+    height:880px;
+    z-index: 10000;
+}
 @media(max-width:640px){
     h1{
         font-size:50px;
