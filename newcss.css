@@ -90,14 +90,25 @@ h3{
 }
 #slide-1, #slide-2{
 }
-#slide-2{
+#slide-2, #slide-3{
     width:100%;
     max-height: 963px;
     top:200%;
     z-index: 10000;
 }
-#slide-2 img{
-    width:100%;
+#slide-2 .bcg{
+    background-image:url(img/photo/bg/priscilla-du-preez-293218.jpg);
+    background-position: center -770px;
+}
+#slide-3 .hsContent{
+    z-index: 100000;
+}
+#slide-4 .bcg{
+    background-image:url(img/photo/bg/pexels-photo-269141.jpg);  
+    background-position: center -570px;
+}
+#slide-5 .bcg{
+    background-image:url(img/photo/bg/bar-local-cong-ireland-63633.jpg);  
 }
 #slide-1 .bcg {
     background:transparent;
@@ -112,7 +123,7 @@ h3{
     -webkit-transform:translateX(-50%) translateY(-50%);
     width:1020px;
     height:880px;
-    z-index: 10000;
+    z-index: 10000000;
 }
 .progress-bar{
     max-width:400px;
@@ -236,48 +247,49 @@ h3{
     transform: translate(-50%);
 }
 .red-line1{
-    left: 14%;
+    left: 18%;
+    top: -3%;
     width: 420px;
 }
 .red-line3{
-    right:2%;
+    right: 10%;
     width: 100px;
-    top:-10%;
+    top: -12%;
 }
 .red-line2{
-    left: 14%;
+    left: 18%;
     width: 300px;
-    top:12%;
+    top: 12%;
 }
 .red-line4{
-    left: 14%;
+    left: 16%;
     width: 250px;
-    top:-12%;
+    top: -12%;
 }
 .red-line5{
-    left: 14%;
+    left: 16%;
     width: 150px;
-    top:-24%;
+    top: -22%;
 }
 .red-line6{
-    right:2%;
+    right: 9%;
     width: 150px;
-    top:-24%;
+    top: -22%;
 }
 .red-line7{
-    right:2%;
+    right: 9%;
     width: 150px;
-    top:39%;
+    top: 24%;
 }
 .red-line8{
-    left:14%;
+    left: 17%;
     width: 150px;
-    top:39%;
+    top: 32%;;
 }
 .red-line9{
     left:34%;
     width: 150px;
-    top:39%;
+    top:32%;
 }
 .line1{
     left: 17%;
@@ -298,19 +310,19 @@ h3{
     height:20px;
 }
 .line4{
-    left: 17%;
+    left: 18%;
     max-width: 550px;
     top: 10%;
     height:20px;
 }
 .line5{
-    left: 17%;
+    left: 18%;
     max-width:550px;
     top: 22%;
     height:20px;
 }
 .line6{
-    left: 17%;
+    left: 18%;
     max-width:550px;
     top: 30%;
     height:20px;
@@ -328,7 +340,7 @@ h3{
 }
 .banana01{
     width:533px;  
-    top: 50%;
+    top: 60%;
     left: 15%;
     z-index: 10000000;
 }
@@ -343,14 +355,14 @@ h3{
     height:100%;
 }
 .youtube{
-    width:530px;
+    width: 474px;
     left: 22%;
-    top: -23%;
+    top: -33%;
 }
 .cat-yt{
-    max-width: 422px;
-    left: 30%;
-    top: -13%;
+    max-width: 390px;
+    left: 28%;
+    top: -25%;
 }
 .cat2{
     left:0;
@@ -360,7 +372,7 @@ h3{
 }
 .cat5{
     top:0;
-    z-index: 100000;
+    z-index: 100000000;
     width:388px;
 }
 .cat4{
@@ -370,25 +382,26 @@ h3{
 }
 .cat3{
     bottom:-12%;
-    z-index: 100001;
-    width:800px;
+    z-index: 1000000;
+    width:740px;
 }
 .cat1 img, .cat2 img, .cat3 img, .cat4 img, .cat5 img{
     width:100%;
 }
 .battery1{
-    max-width:370px;
-    left:34%;
+    max-width: 370px;
+    left: 31%;
+    top: -16%;
 }
 .battery2{
-    max-width:70px;
-    top:7%;
-    left:40%;
+    max-width: 70px;
+    top: -9%;
+    left: 40%;
 }
 .emoji{
     width:200px;
     height:200px;
-    z-index: 10000;
+    z-index: 1000000000;
 }
 .emoji img{
     width:100%;
@@ -435,7 +448,7 @@ h3{
     z-index: 10000;
 }
 .coffee1{
-    left:25%;
+    left:14%;
     top:40%;
 }
 .coffee2{
@@ -448,7 +461,7 @@ h3{
 }
 .sushi{
     width:550px;
-    z-index: 10000;
+    z-index: 100000000;
     top:64%;
     left:30%;
 }
@@ -468,7 +481,7 @@ h3{
     transform:translate(-50%);
     -webkit-transform:translate(-50%);
     width:1300px;
-    z-index: 10000;
+    z-index: 1000000000;
 }
 .man img{
     opacity: 0.7;
@@ -506,7 +519,7 @@ h3{
 .last-photo{
     transform:rotate(10deg);
     -webkit-transform: rotate(10deg);
-    z-index: 10000;
+    z-index: 100000000;
 }
 .links-content{
     bottom:0;
@@ -538,6 +551,9 @@ h3{
 }
 .book{
     z-index: 10000000;
+}
+.laptop-img-close{
+    top:43%;
 }
 @media(max-width:1920px){
     .last-photo{
