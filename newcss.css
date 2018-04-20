@@ -54,6 +54,9 @@ body{
     text-align: center;
     width:100%;
 }
+.mobile-visible{
+    display: none;
+}
 h1{
     color: black;
     font-family: Amatic SC;
@@ -878,7 +881,7 @@ h3{
 }
 @media(max-width:1280px){
     .coffee3{
-        top:26%;
+        top: 19%;
     } 
     .coffee1{
         top:47%;
@@ -886,19 +889,333 @@ h3{
     .water{
         top:37%;
     }
+    .desc h3{
+        font-size:50px;
+        line-height:50px;
+    }
+    .man{
+        width: 977px;
+
+    }
+}
+@media(max-width:1024px){
+    #slide-2 .bcg {
+        background-position: center -415px;
+    }  
+    .laptop-img-wrap {
+        width: 500px;
+        top: 79%;
+    }
+    .desc p{
+        font-size:14px;
+    }
+    .load-bar {
+        width: 340px;
+        left: 51%;
+        top: -22%;
+    }
+    .load-bar-per {
+        height: 38px;
+        left: 22%;
+        top: -20%;
+    }
+    .skype-window {
+        max-width: 270px;
+        left: 50%;
+    }
+    .professor {
+        max-width: 140px;
+    }
+    .line1 {
+        left: 19%;
+        top: -33%;
+        max-width:330px;
+        height:15px;
+    }
+    .line2 {
+        left: 19%;
+        max-width:310px;
+        top:-19%;
+        height:15px;
+    }
+    .line3 {
+        max-width:300px;
+        left: 19%;
+        top: -26%;
+        height:15px;
+    }
+    .line4 {
+        left: 19%;
+        top: -12%;
+        max-width:320px;
+        height:15px;
+    }
+    .line5 {
+        max-width:330px;
+        left: 19%;
+        top: -5%;
+        height:15px;
+    }
+    .line6 {
+        max-width:310px;
+        left: 19%;
+        top: 1%;
+        height:15px;
+    }
+    .red-line1 {
+        left: 17%;
+        top: 3%;
+        width: 230px;
+    }
+    .red-line2 {
+        left: 19%;
+        width: 176px;
+        top: -17%;
+    }
+    .red-line4 {
+        left: 18%;
+        width: 159px;
+        top: -24%;
+    }
+    .red-line5 {
+        left: 18%;
+        width: 90px;
+        top: -31%;
+    }
+    .red-line6 {
+        right: 18%;
+        width: 92px;
+        top: -17%;
+    }
+    .red-line7 {
+        right: 15%;
+        width: 100px;
+        top: -3%;
+    }
+    .red-line8 {
+        left: 18%;
+        width: 91px;
+        top: -10%;
+    }
+    .red-line9 {
+        left: 46%;
+        width: 97px;
+        top: -10%;
+    }
+    .youtube {
+        width: 275px;
+        top: -35%;
+    }
+    .cat-yt {
+        max-width: 205px;
+        left: 28%;
+        top: -28%;
+    }
+    .battery1 {
+        max-width: 189px;
+        left: 34%;
+        top: -26%;
+    }
+    .coffee2 {
+        right: 0%;
+        top: 45%;
+    }
+    .coffee1 {
+        left: 7%;
+        top: 40%;
+    }
+    .coffee3 {
+        right: 0%;
+    }
+    .water2 {
+        right: 6%;
+    }
+    .links-content{
+        padding:10px;
+    }
+    .links-content .left-col {
+        float: left;
+        width: 50%;
+    }
+    .links-content a{
+        line-height:14px;
+    }
 }
 @media(max-width:800px){
     .desc h3{
         font-size:40px;
+        line-height:34px;
+    }
+    .desc p {
+        font-size: 12px;
+        margin: 0;
+    }
+    .desc .author{
+        font-size:12px;
+    }
+    .page-intro p {
+        font-size: 18px;
+    }
+    #slide-2 .bcg {
+        background-position: center -320px;
+    }
+    .laptop-img-wrap {
+        width: 420px;
+        top: 94%;
+    }
+    .professor {
+        max-width: 100px;
+    }
+    .skype-window {
+        max-width: 215px;
+    }
+    .load-bar {
+        width: 245px;
+        left: 49%;
+        top: -23%;
+    }
+    .load-bar-per {
+        height: 31px;
+        left: 22%;
+        top: -21%;
+    }
+    .line1 {
+        left: 16%;
+        top: -36%;
+        max-width: 278px;
+        height: 10px;
+    }
+    .line3 {
+        max-width: 240px;
+        left: 16%;
+        top: -30%;
+        height: 10px;
+    }
+    .line2 {
+        left: 16%;
+        max-width: 260px;
+        top: -23%;
+        height: 10px;
+    }
+    .line4 {
+        left: 16%;
+        top: -16%;
+        max-width: 250px;
+        height: 10px;
+    }
+    .line5 {
+        max-width: 277px;
+        left: 16%;
+        top: -11%;
+        height: 10px;
+    }
+    .line6 {
+        max-width: 265px;
+        left: 16%;
+        top: -6%;
+        height: 10px;
+    }
+    #slide-4 .bcg {
+        background-image: url(img/photo/bg/pexels-photo-269141.jpg);
+        background-position: center -321px;
+    }
+    .red-line1 {
+        left: 14%;
+        top: -35%;
+        width: 230px;
+    }
+    .red-line2 {
+        left: 16%;
+        width: 176px;
+        top: -22%;
+    }
+    .red-line3 {
+        right: 22%;
+        width: 75px;
+        top: -5%;
+    }
+    .red-line5 {
+        left: 15%;
+        width: 90px;
+        top: -29%;
+    }
+    .red-line6 {
+        right: 22%;
+        width: 92px;
+        top: -15%;
+    }
+    .red-line7 {
+        right: 55%;
+        width: 100px;
+        top: -5%;
+    }
+    .cat-yt {
+        max-width: 180px;
+        left: 28%;
+        top: -32%;
+    }
+    .youtube {
+        width: 230px;
+        top: -37%;
+    }
+    .time div:last-of-type, .money div:last-of-type {
+        font-size: 40px;
+    }
+    .banana01{
+        width:240px;
+    }
+    .banana02{
+        width:200px;
+    }
+    .battery1 {
+        max-width: 146px;
+        left: 34%;
+        top: -29%;
+    }
+    .protein-bar{
+        width:180px;
+    }
+    .protein-bar1{
+        left:8%;
+    }
+    .protein-bar2{
+        left:46%;
+    }
+    .protein-bar3{
+        left:64%;
+    }
+    .coffee {
+        width: 128px;
+    }
+    .coffee3 {
+        top: 21%;
+    }
+    .water1 {
+        top: 30%;
+        left: 5%;
+    }
+    .water2 {
+        right: -1%;
+        top: 30%;
+    }
+    .man {
+        width: 600px;
+        bottom: -5%;
+    }
+    .laptop-img-close.top {
+        top: 1%;
+    }
+    .links-content .left-col, .links-content .right-col{
+        float:none;
+        width:100%;
+    }
+    .mobile-visible{
+        display: block;
+        max-height:300px;
     }
 }
 @media(max-width:640px){
-    .laptop-img-wrap{
-        width:300px;
-    }
-    .laptop-img-wrap .laptop-img{
-        width:300px;
-    } 
+
     .load-bar-per {
         height: 20px;
         left: 18%;
@@ -1026,23 +1343,4 @@ h3{
         width: 215px;
     }
 }
-@media(max-width:640px){
-    .laptop-img-wrap, .laptop-img{
-        max-width:300px;
-        height:200px;
-    }
-    h1{
-        font-size:50px;
-    }
-    .page-intro figure{
-        max-width:200px;
-        margin:0 auto;
-    }
-    .page-intro img{
-        width:100%;
-        display:block;
-    }
-    .page-intro p{
-        font-size:16px;
-    }
-}
+

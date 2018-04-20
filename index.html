@@ -290,14 +290,15 @@ and open the template in the editor.
             <img class="laptop-img" data-1200="opacity:1" data-43500="opacity:1" data-44000="opacity:0" src="img/svg/02-laptop.svg"/>
             <img class="laptop-img-close" data-44000="opacity:0;" data-44500="opacity:1; margin-top:0" data-46000="margin-top:-20%" src="img/svg/17-laptop.svg"/>
         </figure>
-        <div class="time" data-0="opacity:0;" data-1300="opacity:1;" data-45000="bottom:3%; left:2%" data-46000="bottom:80%; left:10%;">
+        <div class="time" data-0="opacity:0;" data-1300="opacity:1;" data-45000="bottom:3%; left:2%" data-46000="bottom:84%; left:10%;">
             <div>Time</div>
             <div><span></span></div>
         </div>
-        <div class="money" data-0="opacity:0;" data-1300="opacity:1;" data-45000="bottom:3%; right:2%" data-46000="bottom:80%; right:10%;">
+        <div class="money" data-0="opacity:0;" data-1300="opacity:1;" data-45000="bottom:3%; right:2%" data-46000="bottom:84%; right:10%;">
             <div>money</div>
             <div><span></span></div>
         </div>
+        <div class="mobile-visible" data-48000="height:0" data-48500="height:100%"></div>
         <div class="links-content clearfix" data-48000="opacity:0" data-48500="opacity:1">
             <div class="left-col">
                 <a href="#">https://www.numbeo.com/cost-of-living/in/San-Francisco</a>
@@ -395,8 +396,11 @@ and open the template in the editor.
                 }
                 if ($(window).scrollTop() >= 45000) {
                     $('.money span').text('$43.32');
+                }
+                if ($(window).scrollTop() >= 46000) {
+                    $('.laptop-img-close').addClass('top');
                 } else {
-
+                      $('.laptop-img-close').removeClass('top');
                 }
             });
 
