@@ -134,7 +134,7 @@ h3{
     padding:45px;
     max-width:800px;
     top:7%;
-    z-index: 100000000;
+    z-index: 1000000;
 }
 .desc h3{
     font-weight:700;
@@ -534,6 +534,7 @@ h3{
     padding-bottom:10px;
     color:#0c3eb1;
     font-size:12px;
+    font-family: Roboto;
 }
 .links-content .left-col{
     float:left;
@@ -585,93 +586,104 @@ h3{
 
 }
 @media(max-width:1600px){
+    #slide-2 .bcg {
+        background-position: center -640px;
+    }
     h1{
         font-size:55px;
         padding:30px 0 30px 0;
     }
     .laptop-img-wrap{
         width:600px;
+        top:70%;
     }
     .laptop-img-wrap .laptop-img{
-        width:600px;
+        max-width:600px;
     }
     .load-bar{
-        width:400px;
+        width: 385px;
         left: 51%;
-        top: 1%;
+        top: -17%;
     }
     .load-bar-per {
-        height: 50px;
+        height: 46px;
         left: 22%;
-        top: 3%;
+        top: -14%;
     }
     .skype-window{
         max-width:350px;
         width: 100%;
         left: 51%;
-        top:-19%;
+        top:-36%;
         transform: translate(-50%); 
     }
     .professor{
         max-width:200px; 
         left: 37%;
-        top: -10%;
+        top: -28%;
     }
     .line1 {
         left: 19%;
-        top: -15%;
+        top: -33%;
+        max-width:380px;
     }
     .line2 {
         left: 19%;
-        top: 20%;
+        max-width:370px;
+        top:-19%;
     }
     .line3 {
+        max-width:370px;
         left: 19%;
-        top: -9%;
+        top: -26%;
     }
     .line4 {
         left: 19%;
-        top: -1%;
+        top: -10%;
+        max-width:360px;
     }
     .line5 {
-        left: 17%;
-        top: 7%;
+        max-width:380px;
+        left: 19%;
+        top: 0%;
     }
     .line6 {
+        max-width:350px;
         left: 19%;
-        top: 15%;
+        top: 8%;
     }
     .book{
         max-width:400px;
         width:100%;
     }
     .cat-yt {
-        max-width: 300px;
-        left: 26%;
-        top: -12%;
+        max-width: 283px;
+        left: 28%;
+        top: -28%;
     }
     .youtube{
         width:350px;
-        top:-18%;
+        top:-35%;
     }
     .battery1{
         max-width:230px;
         left:34%;
+        top:-21%;
     }
     .battery2{
         max-width:50px;
-        top:2%;
-        left:40%;
+        top: -18%;
+        left: 37%;
     }
     .protein-bar{
         width:300px;
         top:71%;
-        left:15%;
-        z-index: 10000;
+        left:10%;
+        z-index: 1000000002;
     }
     .protein-bar2{
         top:71%;
-        left:40%;
+        left:50%;
     }
     .protein-bar4{
         top:71%;
@@ -679,7 +691,7 @@ h3{
     }
     .protein-bar3{
         top:70%;
-        left:60%;
+        left:70%;
     }
     .coffee{
         width:250px;
@@ -698,12 +710,12 @@ h3{
     .red-line5 {
         left: 18%;
         width: 114px;
-        top: -13%;
+        top:-30%;
     }
     .red-line4 {
         left: 18%;
         width: 220px;
-        top: -7%;
+        top: -24%;
     }
     .red-line3 {
         right: 19%;
@@ -713,41 +725,56 @@ h3{
     .red-line6 {
         right: 18%;
         width: 116px;
-        top: -13%;
+        top: -16%;
     }
     .red-line1 {
         left: 19%;
-        top: 1%;
+        top:3%;
         width: 300px;
     }
     .red-line9 {
         left: 34%;
         width: 125px;
-        top: 21%;
+        top: 11%;
     }
     .red-line7 {
-        right: 17%;
+        right: 21%;
         width: 132px;
-        top: 21%;
+        top: 11%;
     }
     .red-line2 {
         left: 26%;
         width: 233px;
-        top: 7%;
+        top: -17%;
     }
     .red-line8 {
         left: 18%;
         width: 101px;
-        top: 22%;
+        top: 11%;
     }
     .time{
-        left:10%;
+        left:2%;
     }
     .money{
-        right:10%;
+        right:2%;
     }
     .time div:last-of-type, .money div:last-of-type{
         font-size:70px;
+    }
+    .desc{
+        padding:13px;
+    }
+    .cat3{
+        z-index: 100000000;
+        width: 620px;
+    }
+    .cat2{
+        width:440px;
+    }
+    .cat4{
+        top: -15%;
+        z-index: 100000;
+        width: 515px;
     }
 }
 @media(max-width:1366px){
@@ -762,12 +789,6 @@ h3{
     .page-intro p{
         font-size:24px;
     }
-    .laptop-img-wrap{
-        width:500px;
-    }
-    .laptop-img-wrap .laptop-img{
-        width:500px;
-    }
     .desc{
         max-width:300px;
         padding:10px;
@@ -775,72 +796,18 @@ h3{
     .desc h3{
         padding-bottom:10px;
     }
-    .load-bar{
-        width:300px;
-        left: 50%;
-        top: 1%;
-    }
-    .professor{
-        max-width:150px; 
-        left: 37%;
-        top: -10%;
-    }
-    .book{
-        max-width:350px;
-        width:100%;
-    }
-    .skype-window{
-        max-width:250px;
-        width: 100%;
-        left: 50%;
-        top:-15%;
-        transform: translate(-50%); 
-    }
+
     .banana01{
-        width:333px;  
+        width: 381px;
         top: 50%;
-        left: 21%;
+        left: 14%;
     }
     .banana02{
-        width:300px;
+        width: 330px;
         top: 60%;
-        right: 21%;
+        right: 9%;
     }
-    .cat-yt{
-        max-width:200px;
-        left: 30%;
-        top: -8%;
-    }
-    .youtube{
-        width:280px;
-        top:-15%;
-    }
-    .cat3{
-        width:380px;
-    }
-    .cat5{
-        width:200px;
-    }
-    .cat4{
-        width:300px;
-        top:-12%;
-    }
-    .cat2{
-        width:302px;
-        bottom:0;
-    }
-    .cat2 img, .cat3 img, .cat4 img, .cat5 img{
-        width:100%; 
-    }
-    .battery1{
-        max-width:170px;
-        left:34%;
-    }
-    .battery2{
-        max-width: 31px;
-        top: 3%;
-        left: 40%;
-    }
+
     .emoji{
         width:100px;
         height:100px;
@@ -849,7 +816,6 @@ h3{
         width:276px;
         top:71%;
         left:15%;
-        z-index: 10000;
     }
     .protein-bar2{
         top:71%;
@@ -863,10 +829,6 @@ h3{
         top:70%;
         left:60%;
     }
-    .coffee{
-        width:150px;
-        z-index: 10000;
-    }
     .sushi{
         width:290px;
     }
@@ -874,7 +836,7 @@ h3{
         width:100px;
     }
     .man{
-        width:700px;
+        width:805px;
     }
     .last-photo{
         width:300px;
@@ -882,45 +844,36 @@ h3{
     .last-photo img{
         width:100%;
     }
-    .load-bar-per {
-        height: 40px;
-        left: 22%;
-        top: 3%;
+    #slide-4 .bcg {
+        background-image: url(img/photo/bg/pexels-photo-269141.jpg);
+        background-position: center -398px;
     }
-    .line1 {
-        left: 17%;
-        max-width: 325px;
-        top: -15%;
+    #slide-2 .bcg {
+        background-position: center -592px;
     }
-    .line2 {
-        left: 17%;
-        max-width: 335px;
-        top: 20%;
+    .cat4{
+        width:380px;
     }
-    .line3 {
-        left: 16%;
-        max-width: 340px;
-        top: -9%;
+    .cat2{
+        width:315px;
     }
-    .line4 {
-        left: 17%;
-        max-width: 322px;
-        top: -1%;
+    .cat5{
+        top: -48px;
+        width: 330px;
     }
-    .line5 {
-        left: 15%;
-        max-width: 327px;
-        top: 7%;
+    .cat3{
+        width: 472px;
     }
-    .line6 {
-        left: 17%;
-        max-width: 322px;
-        top: 15%;
+    .desc.desc-breaks {
+        max-width: 484px;
+        z-index: 1000000000;
     }
-    .coffee3{
-        top:17%;
+    .coffee {
+        width: 176px;
     }
-
+    .laptop-img-close {
+    top: 29%;
+}
 }
 @media(max-width:1280px){
     .coffee3{
