@@ -341,13 +341,13 @@ h3{
 .banana01{
     width:533px;  
     top: 60%;
-    left: 15%;
+    left: 10%;
     z-index: 10000000;
 }
 .banana02{
     width:500px;
     top: 65%;
-    right:7%;
+    right:5%;
     z-index: 10000000;
 }
 .banana01 img, .banana02 img{
@@ -800,12 +800,13 @@ h3{
     .banana01{
         width: 381px;
         top: 50%;
-        left: 14%;
+        z-index: 100000000;
+
     }
     .banana02{
         width: 330px;
         top: 60%;
-        right: 9%;
+        z-index: 100000000;
     }
 
     .emoji{
@@ -872,8 +873,8 @@ h3{
         width: 176px;
     }
     .laptop-img-close {
-    top: 29%;
-}
+        top: 29%;
+    }
 }
 @media(max-width:1280px){
     .coffee3{
