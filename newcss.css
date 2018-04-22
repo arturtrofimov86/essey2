@@ -1492,5 +1492,58 @@ h3{
         width: 40px;
         top: -26%;
     }
+    .youtube {
+        width: 170px;
+        top: -39%;
+        left: 16%;
+    }
+    .cat-yt {
+        max-width: 137px;
+        left: 23%;
+        top: -36%;
+    }
+    .battery1 {
+        max-width: 120px;
+        left: 26%;
+        top: -34%;
+    }
+    .emoji1 {
+        left: -3%;
+        width:35px;
+        height:35px;
+    }
+    .emoji4 {
+        right: 8%;
+        width:63px;
+        height:63px;
+    }
+    .emoji2{
+        width:63px;
+        height:63px;
+    }
+    .emoji3{
+        width:70px;
+        height:70px;
+        right:45%;
+    }
+    .protein-bar {
+        width: 110px;
+    }
+    .sushi {
+        width: 210px;
+        left:12%;
+    }
+    .water {
+        width: 60px;
+        top:36%;
+        z-index: 100000000;
+    }
+    .man {
+        width: 426px;
+        bottom: -5%;
+    }
+    .laptop-img-close.top {
+        top: -2%;
+    }
 }
 
