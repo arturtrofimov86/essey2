@@ -1218,27 +1218,36 @@ h3{
 
     .load-bar-per {
         height: 20px;
-        left: 18%;
-        top: 1%;
+        left: 26%;
+        top: -20%;
     }
     .load-bar {
-        width: 170px;
-        left: 43%;
-        top: -1%;
+        width: 220px;
+        left: 50%;
+        top: -22%;
+    }
+    .laptop-img-wrap {
+        width: 420px;
+        top: 87%;
+        left: 45%;
     }
     .skype-window{
         max-width: 170px;
         width: 100%;
-        left: 44%;
-        top: -19%;
+        left: 50%;
+        top: -31%;
     }
     .professor {
-        max-width: 124px;
-        left: 24%;
-        top: -13%;
+        max-width: 98px;
+        left: 38%;
+        top: -27%;
     }
-    .line6, .line5, .line1, .line2, .line4, .line3{
-        max-width: 177px;
+    .man {
+        left: 45%;
+    }
+    .book {
+        z-index: 100000000;
+        margin: 0 67px 0 0;
     }
     .red-line5 {
         left: 18%;
@@ -1291,20 +1300,31 @@ h3{
     .banana02{
         right:-4%;
     }
-    .cat3 {
-        bottom: -1%;
+    .cat2 {
+        width: 206px;
     }
-    .cat4{
+    .cat4 {
+        width: 240px;
         top:-5%;
     }
+    .cat5{
+        width: 233px;
+    }
+    .cat3 {
+        width: 350px;
+        bottom: -1%;
+    }
+    .desc.desc-breaks {
+        max-width: 366px;
+    }
     .youtube {
-        width: 153px;
+        width: 229px;
     }
     .cat-yt {
-        max-width: 100px;
+        max-width: 181px;
     }
     .battery1 {
-        max-width: 80px;
+        max-width: 140px;
     }
     .battery2 {
         max-width: 16px;
@@ -1327,20 +1347,150 @@ h3{
         left: 46%;
     }
     .coffee1{
-        left:0%;
+        left: 15%;
+        top:55%;
     }
     .coffee2 {
         right: -2%;
+        top: 56%;
     }
     .coffee3 {
-        top: 31%;
+        top:40%;
         right: -2%;
     }
     .coffee {
         width: 106px;
+        z-index: 100000001;
     }
     .last-photo {
         width: 215px;
+    }
+}
+@media(max-width:480px){
+    .page-intro img {
+        width:236px;
+        height:236px;
+    }
+    .laptop-img-wrap{
+        width:300px;
+        top: 95%;
+        left: 42%;
+    }
+    h1{
+        font-size: 80px;
+        line-height: 70px;
+    }
+    .page-intro p {
+        font-size: 16px;
+    }
+    .time div:last-of-type, .money div:last-of-type {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .load-bar {
+        width: 180px;
+        left: 44%;
+        top: -30%;
+    }
+    .load-bar-per {
+        height: 21px;
+        left: 18%;
+        top: -29%;
+    }
+    .desc {
+        max-width: 412px;
+    }
+    .skype-window{
+        left: 45%;
+        top: -39%;
+    }
+    .professor{
+        left: 29%;
+        top: -35%;
+    }
+    .line1 {
+        left: 13%;
+        top: -38%;
+        max-width: 185px;
+        height: 7px;
+    }
+    .line2 {
+        left: 13%;
+        max-width: 190px;
+        top: -31%;
+        height: 7px;
+    }
+    .line3 {
+        max-width: 160px;
+        left: 13%;
+        top: -35%;
+        height: 7px;
+    }
+    .line4 {
+        left: 13%;
+        top: -27%;
+        max-width: 187px;
+        height: 7px;
+    }
+    .line5 {
+        max-width: 172px;
+        left: 13%;
+        top: -23%;
+        height: 7px;
+    }
+    .line6 {
+        max-width: 196px;
+        left: 13%;
+        top: -19%;
+        height: 7px;
+    }
+    .book{
+        max-width: 310px;
+    }
+    .red-line1 {
+        left: 14%;
+        top: -36%;
+        width: 30px;
+    }
+    .red-line2 {
+        left: 26%;
+        width: 59px;
+        top: -34%;
+    }
+    .red-line3 {
+        right: 25%;
+        width: 26px;
+        top: -37%;
+    }
+    .red-line4 {
+        left: 13%;
+        width: 55px;
+        top: -30%;
+    }
+    .red-line5 {
+        left: 13%;
+        width: 30px;
+        top: -18%;
+    }
+    .red-line6 {
+        right: 25%;
+        width: 30px;
+        top: -26%;
+    }
+    .red-line7 {
+        right: 26%;
+        width: 30px;
+        top: -18%;
+    }
+    .red-line8 {
+        left: 18%;
+        width: 30px;
+        top: -22%;
+    }
+    .red-line9 {
+        left: 34%;
+        width: 40px;
+        top: -26%;
     }
 }
 
