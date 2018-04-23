@@ -1367,6 +1367,10 @@ h3{
     }
 }
 @media(max-width:480px){
+    .cat3 {
+        width: 230px;
+        bottom: 0%;
+    }
     .page-intro img {
         width:236px;
         height:236px;
@@ -1527,7 +1531,7 @@ h3{
         right:45%;
     }
     .protein-bar {
-        width: 110px;
+        width:90px;
     }
     .sushi {
         width: 210px;
@@ -1535,7 +1539,7 @@ h3{
     }
     .water {
         width: 60px;
-        top:36%;
+        top:46%;
         z-index: 100000000;
     }
     .man {
@@ -1544,6 +1548,37 @@ h3{
     }
     .laptop-img-close.top {
         top: -2%;
+    }
+    .book {
+        max-width: 280px;
+        margin:0 20px 0 0;
+    }
+    .cat4 {
+        width: 177px;
+        top: 23%;
+        z-index: 100000001;
+    }
+    .cat5 {
+        width: 152px;
+        top:27%;
+    }
+    .coffee {
+        width: 70px;
+    }
+    .coffee1 {
+        left: -3%;
+        top: 48%;
+    }
+    .coffee2 {
+        right: -6%;
+        top: 48%;
+    }
+    .coffee3 {
+        top: 35%;
+        right: -6%;
+    }
+    .links-content a {
+        line-height: 11px;
     }
 }
 
