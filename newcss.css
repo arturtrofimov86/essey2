@@ -458,9 +458,10 @@ h3{
     right:7%;
     top:45%;
 }
-.coffee3{
-    right:7%;
-    top:7%;
+   .coffee3 {
+    right: 27%;
+    top: 46%;
+    z-index: 100000000;
 }
 .sushi{
     width:550px;
@@ -700,11 +701,6 @@ h3{
     }
     .coffee{
         width:250px;
-        z-index: 10000;
-    }
-    .coffee3 {
-        right: 7%;
-        top: 12%;
     }
     .sushi{
         width:440px;
@@ -883,7 +879,7 @@ h3{
 }
 @media(max-width:1280px){
     .coffee3{
-        top: 19%;
+        top:53%;
     } 
     .coffee1{
         top:47%;
@@ -1025,9 +1021,6 @@ h3{
     .coffee1 {
         left: 7%;
         top: 40%;
-    }
-    .coffee3 {
-        right: 0%;
     }
     .water2 {
         right: 6%;
@@ -1188,9 +1181,6 @@ h3{
     }
     .coffee {
         width: 128px;
-    }
-    .coffee3 {
-        top: 21%;
     }
     .water1 {
         top: 30%;
@@ -1355,10 +1345,6 @@ h3{
     .coffee2 {
         right: -2%;
         top: 56%;
-    }
-    .coffee3 {
-        top:40%;
-        right: -2%;
     }
     .coffee {
         width: 106px;
@@ -1574,10 +1560,6 @@ h3{
     .coffee2 {
         right: -6%;
         top: 48%;
-    }
-    .coffee3 {
-        top: 35%;
-        right: -6%;
     }
     .links-content a {
         line-height: 11px;
