@@ -262,7 +262,7 @@ h3{
 .red-line2{
     left: 18%;
     width: 300px;
-    top: 12%;
+    top: 7%;
 }
 .red-line4{
     left: 16%;
@@ -282,17 +282,17 @@ h3{
 .red-line7{
     right: 9%;
     width: 150px;
-    top: 24%;
+    top: 18%;
 }
 .red-line8{
     left: 17%;
     width: 150px;
-    top: 32%;;
+    top:28%;;
 }
 .red-line9{
     left:34%;
     width: 150px;
-    top:32%;
+    top:28%;
 }
 .line1{
     left: 17%;
@@ -313,22 +313,22 @@ h3{
     height:20px;
 }
 .line4{
-    left: 18%;
+    left: 17%;
     max-width: 550px;
-    top: 10%;
-    height:20px;
+    top: 5%;
+    height: 20px;
 }
-.line5{
-    left: 18%;
-    max-width:550px;
-    top: 22%;
-    height:20px;
+.line5 {
+    left: 17%;
+    max-width: 550px;
+    top: 16%;
+    height: 20px;
 }
 .line6{
-    left: 18%;
-    max-width:550px;
-    top: 30%;
-    height:20px;
+    left: 17%;
+    max-width: 550px;
+    top: 26%;
+    height: 20px;
 }
 .load-bar-per{
     height: 70px;
@@ -458,7 +458,7 @@ h3{
     right:7%;
     top:45%;
 }
-   .coffee3 {
+.coffee3 {
     right: 27%;
     top: 46%;
     z-index: 100000000;
@@ -633,30 +633,30 @@ h3{
         top: -33%;
         max-width:380px;
     }
-    .line2 {
+    .line3 {
         left: 19%;
         max-width:370px;
         top:-19%;
     }
-    .line3 {
+    .line2 {
         max-width:370px;
         left: 19%;
         top: -26%;
     }
     .line4 {
         left: 19%;
-        top: -10%;
+        top: -11%;
         max-width:360px;
     }
     .line5 {
         max-width:380px;
         left: 19%;
-        top: 0%;
+        top: -4%;
     }
     .line6 {
-        max-width:350px;
+        max-width: 350px;
         left: 19%;
-        top: 8%;
+        top: 2%;
     }
     .book{
         max-width:400px;
@@ -730,18 +730,18 @@ h3{
     }
     .red-line1 {
         left: 19%;
-        top:3%;
+        top: -8%;
         width: 300px;
     }
     .red-line9 {
         left: 34%;
         width: 125px;
-        top: 11%;
+        top: 5%;
     }
     .red-line7 {
         right: 21%;
         width: 132px;
-        top: 11%;
+        top: 5%;
     }
     .red-line2 {
         left: 26%;
@@ -751,7 +751,7 @@ h3{
     .red-line8 {
         left: 18%;
         width: 101px;
-        top: 11%;
+        top: 5%;
     }
     .time{
         left:2%;
@@ -878,6 +878,9 @@ h3{
     }
 }
 @media(max-width:1280px){
+    #slide-2 .bcg {
+        background-position: center -425px;
+    }
     .coffee3{
         top:53%;
     } 
