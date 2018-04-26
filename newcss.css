@@ -108,7 +108,7 @@ h3{
 }
 #slide-4 .bcg{
     background-image:url(img/photo/bg/pexels-photo-269141.jpg);  
-    background-position: center -570px;
+    background-position: center -440px;
 }
 #slide-5 .bcg{
     background-image:url(img/photo/bg/bar-local-cong-ireland-63633.jpg);  
@@ -564,7 +564,7 @@ h3{
 }
 @media(max-width:1920px){
     .last-photo{
-        width:500px;
+        width:370px;
     }
     .last-photo img{
         width:100%;
