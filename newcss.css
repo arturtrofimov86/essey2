@@ -848,7 +848,7 @@ h3{
     }
     #slide-4 .bcg {
         background-image: url(img/photo/bg/pexels-photo-269141.jpg);
-        background-position: center -398px;
+        background-position: center -320px;
     }
     #slide-2 .bcg {
         background-position: center -592px;
@@ -872,6 +872,9 @@ h3{
     }
     .coffee {
         width: 176px;
+    }
+    .laptop-img-wrap{
+        top:73%;
     }
     .laptop-img-close {
         top: 29%;
