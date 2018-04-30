@@ -45,7 +45,6 @@ html, body {
     display: table;
 }
 body{
-    background: #fff000;
     overflow: hidden;
     width:100%;
     height:100%;
@@ -56,6 +55,14 @@ body{
 }
 .mobile-visible{
     display: none;
+}
+.middle-bg{
+    height:50%;
+    bottom:0;
+    left:0;
+    right:0;
+    background: #fff000;
+    z-index: 100000;
 }
 h1{
     color: black;
@@ -91,6 +98,13 @@ h3{
     background-size: cover;
     height: 100%;
     width: 100%;
+}
+.slide-7{
+    background: #fff000;   
+}
+#slide-1{
+    background: #fff000;
+    z-index: 1000000;
 }
 #slide-1, #slide-2{
 }
@@ -427,20 +441,16 @@ h3{
 }
 .protein-bar{
     width:400px;
-    top:75%;
     left:11%;
-    z-index: 10000;
+    z-index: 100000001;
 }
 .protein-bar2{
-    top:76%;
     left:50%;
 }
 .protein-bar4{
-    top:76%;
     left:30%;
 }
 .protein-bar3{
-    top:70%;
     left:69%;
 }
 .protein-bar img, .coffee img, .sushi img, .water img, .man img{
@@ -449,18 +459,15 @@ h3{
 }
 .coffee{
     width:300px;
-    z-index: 10000;
+    z-index: 1000000000;
 }
 .coffee1{
-    left:14%;
     top:40%;
 }
 .coffee2{
-    right:7%;
     top:45%;
 }
 .coffee3 {
-    right: 27%;
     top: 46%;
     z-index: 100000000;
 }
@@ -472,11 +479,11 @@ h3{
 }
 .water{
     width:200px;
-    z-index: 10000;
+    z-index: 10000000;
     top:26%;
 }
 .water1{
-    left:15%;
+    left:10%;
 }
 .water2{
     right:10%;
@@ -498,6 +505,9 @@ h3{
 }
 .load-bar-per{
 
+}
+.time, .money{
+    z-index: 10000000;
 }
 .time{
     bottom:3%;
@@ -684,20 +694,16 @@ h3{
     }
     .protein-bar{
         width:300px;
-        top:71%;
         left:10%;
         z-index: 1000000002;
     }
     .protein-bar2{
-        top:71%;
         left:50%;
     }
     .protein-bar4{
-        top:71%;
         left:25%;
     }
     .protein-bar3{
-        top:70%;
         left:70%;
     }
     .coffee{
@@ -1330,19 +1336,15 @@ h3{
     }
     .protein-bar {
         width: 185px;
-        top: 61%;
         left: -3%;
     }
     .protein-bar4 {
-        top: 63%;
         left: 23%;
     }
     .protein-bar3 {
-        top: 65%;
         left: 64%;
     }
     .protein-bar2 {
-        top: 68%;
         left: 46%;
     }
     .coffee1{
@@ -1351,7 +1353,6 @@ h3{
     }
     .coffee2 {
         right: -2%;
-        top: 56%;
     }
     .coffee {
         width: 106px;
