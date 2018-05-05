@@ -604,7 +604,7 @@ h3{
 }
 @media(max-width:1600px){
     #slide-2 .bcg {
-        background-position: center -640px;
+        background-position: center -648px;
     }
     h1{
         font-size:55px;
@@ -785,7 +785,7 @@ h3{
         width: 515px;
     }
 }
-@media(max-width:1366px){
+@media(max-width:1368px){
     h1{
         font-size:50px;
         padding:20px 0 20px;
@@ -857,9 +857,10 @@ h3{
         background-image: url(img/photo/bg/pexels-photo-269141.jpg);
         background-position: center -320px;
     }
+
     #slide-2 .bcg {
-        background-position: center -592px;
-    }
+    background-position: center -516px;
+}
     .cat4{
         width:380px;
     }
