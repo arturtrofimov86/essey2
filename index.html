@@ -38,7 +38,14 @@ and open the template in the editor.
         </section>
         <section class="slide-6 middle-bg" data-1200="opacity:1"></section>
         <section class="slide-7 top-bg" data-47500="top:100%" data-48000="width:100%;height:100%;top:-50%;z-index:100002"></section> 
-        <div class="desc desc-reseach" data-1000="right:-200%" data-1200="right:3%; transform:rotate(10deg);-webkit-transform:rotate(10deg)" data-2000="right:3%; transform:rotate(-10deg);-webkit-transform:rotate(-10deg)" data-2700="right:3%; transform:rotate(-10deg);-webkit-transform:rotate(-10deg)" data-3200="right:-150%; transform:rotate(10deg);-webkit-transform:rotate(10deg)">
+        <div class="desc desc-reseach"
+             data-1000="right:-200%"
+             data-1200="right:-100%; transform:rotate(10deg);-webkit-transform:rotate(10deg)" 
+             data-1600="right:-50%"
+             data-2000="right:3%; transform:rotate(-10deg);-webkit-transform:rotate(-10deg)" 
+             data-2700="right:3%; transform:rotate(-10deg);-webkit-transform:rotate(-10deg)"
+             data-3000="right:1%"
+             data-3200="right:-150%; transform:rotate(10deg);-webkit-transform:rotate(10deg)">
             <h3>Research - <span>7.5 hours</span></h3>
             <p>
                 "Researching for an essay is the most time-consuming process. It should take you 10-15 hours of research time to write a 2,000-3,000 word essay." 
@@ -340,9 +347,7 @@ and open the template in the editor.
         <script>
             $('body').on("mousewheel", function () {
                 event.preventDefault();
-
                 var wheelDelta = event.wheelDelta;
-
                 var currentScrollPosition = window.pageYOffset;
                 window.scrollTo(0, currentScrollPosition - wheelDelta);
             });
@@ -358,9 +363,7 @@ and open the template in the editor.
             })(navigator.userAgent || navigator.vendor || window.opera);
             // Initialise Skrollr
             skrollr.init({
-
             });
-
             $(window).scroll(function () {
                 if ($(window).scrollTop() >= 1000) {
                     $('.time span').text('7 h 30 m');
@@ -413,7 +416,6 @@ and open the template in the editor.
                     $('.laptop-img-close').removeClass('top');
                 }
             });
-
         </script>
     </body>
 </html>
