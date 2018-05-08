@@ -48,6 +48,7 @@ body{
     overflow: hidden;
     width:100%;
     height:100%;
+    background: #fff000;   
 }
 .hsContent{
     text-align: center;
@@ -859,8 +860,8 @@ h3{
     }
 
     #slide-2 .bcg {
-    background-position: center -516px;
-}
+          background-position: center -520px;
+    }
     .cat4{
         width:380px;
     }
@@ -890,7 +891,7 @@ h3{
 }
 @media(max-width:1280px){
     #slide-2 .bcg {
-        background-position: center -425px;
+         background-position: center -425px;
     }
     .coffee3{
         top:53%;
@@ -912,7 +913,7 @@ h3{
 }
 @media(max-width:1024px){
     #slide-2 .bcg {
-        background-position: center -415px;
+         background-position: center -415px;
     }  
     .laptop-img-wrap {
         width: 500px;
@@ -1029,11 +1030,9 @@ h3{
         top: -26%;
     }
     .coffee2 {
-        right: 0%;
         top: 45%;
     }
     .coffee1 {
-        left: 7%;
         top: 40%;
     }
     .water2 {
@@ -1349,11 +1348,9 @@ h3{
         left: 46%;
     }
     .coffee1{
-        left: 15%;
         top:55%;
     }
     .coffee2 {
-        right: -2%;
     }
     .coffee {
         width: 106px;
@@ -1563,11 +1560,9 @@ h3{
         width: 70px;
     }
     .coffee1 {
-        left: -3%;
         top: 48%;
     }
     .coffee2 {
-        right: -6%;
         top: 48%;
     }
     .links-content a {
