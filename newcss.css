@@ -391,7 +391,7 @@ h3{
 }
 .cat5{
     top:0;
-    z-index: 100000000;
+    z-index: 100000;
     width:388px;
 }
 .cat4{
@@ -401,7 +401,7 @@ h3{
 }
 .cat3{
     bottom:-12%;
-    z-index: 1000000;
+    z-index: 100000001;
     width:740px;
 }
 .cat1 img, .cat2 img, .cat3 img, .cat4 img, .cat5 img{
