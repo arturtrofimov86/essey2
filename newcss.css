@@ -1569,4 +1569,15 @@ h3{
         line-height: 11px;
     }
 }
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+.laptop-img-wrap{
+    left:50%;
+    top:56%;
+    transform:translateX(-50%) translateY(-50%);
+    -webkit-transform:translateX(-50%) translateY(-50%);
+    width:1020px;
+    height:880px;
+    z-index: 10000000;
+}	
+}
 
