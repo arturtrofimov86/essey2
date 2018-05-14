@@ -1570,6 +1570,9 @@ h3{
     }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    body{
+        max-width:auto;
+    }
 .laptop-img-wrap{
     left:50%;
     top:47%;
@@ -1580,8 +1583,7 @@ h3{
     z-index: 10000000;
 }
 .book{
-    max-width: 470px;
-    width:100%;
+    width: 470px;
 }
 .book-one img{
     width:100%;
@@ -1591,8 +1593,8 @@ h3{
     z-index: 100000;
     width:100%;
     height:100%;
-    max-width:752px;
-    max-height:436px;
+  width:752px;
+height:436px;
     top:20%;left:40%;
     transform:translateX(-50%);
     -webkit-transform:translateX(-50%);
@@ -1603,14 +1605,14 @@ h3{
     z-index: 1000000;
 }
 .skype-window{
-    max-width: 450px;
+    width: 450px;
     width: 100%;
     left: 59%;
     top: -20%;
     transform: translate(-50%); 
 }
 .load-bar{
-    max-width: 500px;
+   width: 500px;
     width: 100%;
     left: 55%;
     top: -6%;
@@ -1663,37 +1665,37 @@ h3{
 }
 .line1{
     left: 17%;
-    max-width: 550px;
+    width: 550px;
     top: -24%;
     height: 20px;
 }
 .line2{
     left: 17%;
-    max-width:550px;
+   width:550px;
     top:-15%;
     height:20px;
 }
 .line3{
     left: 17%;
-    max-width:550px;
+   width:550px;
     top:-5%;
     height:20px;
 }
 .line4{
     left: 17%;
-    max-width: 550px;
+   width: 550px;
     top: 5%;
     height: 20px;
 }
 .line5 {
     left: 17.4%;
-    max-width: 550px;
+   width: 550px;
     top: 16%;
     height: 20px;
 }
 .line6{
     left: 17.4%;
-    max-width: 550px;
+    width: 550px;
     top: 26%;
     height: 20px;
 }
@@ -1706,7 +1708,7 @@ h3{
     width: 100%;
     left: 39%;
     top: -22%;
-    max-width: 250px;
+    width: 250px;
 }
 .banana01{
     width:533px;  
@@ -1759,12 +1761,12 @@ h3{
     width:100%;
 }
 .battery1{
-    max-width: 370px;
+ width: 370px;
     left: 31%;
     top: -16%;
 }
 .battery2{
-    max-width: 70px;
+    width: 70px;
     top: -9%;
     left: 40%;
 }
