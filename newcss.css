@@ -1578,7 +1578,7 @@ h3{
         top:47%;
         transform:translateX(-50%) translateY(-50%);
         -webkit-transform:translateX(-50%) translateY(-50%);
-        width:1020px;
+        width:800px;
         height:880px;
         z-index: 10000000;
     }
