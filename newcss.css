@@ -1593,7 +1593,7 @@ h3{
         z-index: 100000;
         max-width:752px;
         max-height:436px;
-        top:20%;left:40%;
+        top:30%;left:40%;
         transform:translateX(-50%);
         -webkit-transform:translateX(-50%);
     }
@@ -1605,8 +1605,8 @@ h3{
     .skype-window{
         width: 450px;
         width: 100%;
-        left: 59%;
-        top: -20%;
+        left: 53%;
+        top: -28%;
         transform: translate(-50%); 
     }
     .load-bar{
@@ -1704,8 +1704,8 @@ h3{
     }
     .professor{
         width: 100%;
-        left: 39%;
-        top: -22%;
+        left: 35%;
+        top: -20%;
         width: 250px;
     }
     .banana01{
