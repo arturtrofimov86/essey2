@@ -1573,6 +1573,9 @@ h3{
     body{
      
     }
+    .laptop-img-close{
+        top:19%;
+    }
     .laptop-img-wrap{
         left:50%;
         top:47%;
