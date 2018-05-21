@@ -6,7 +6,21 @@ html, body {
     margin:0;
     overflow-x:hidden;
 }
-
+.arrow-down{
+    z-index: 100000003!important;
+    right:10px;
+    top:10px;
+}
+.arrow-down figure{
+    margin:0;
+    max-width:200px;
+    max-height: 204px;
+}
+.arrow-down figure img{
+    width:100%;
+    height:100%;
+    display:block;
+}
 .skrollable {
     /*
      * First-level skrollables are positioned relative to window
@@ -787,6 +801,10 @@ h3{
     }
 }
 @media(max-width:1368px){
+    .arrow-down figure{
+        max-width:100px;
+        max-height: 100px;
+    }
     h1{
         font-size:50px;
         padding:20px 0 20px;
@@ -1571,10 +1589,7 @@ h3{
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     body{
-     
-    }
-    .laptop-img-close{
-        top:19%;
+
     }
     .laptop-img-wrap{
         left:50%;
@@ -1869,5 +1884,36 @@ h3{
         left:3%;
         text-align:left;
     }
+}
+div#wrapper {
+    margin:0 auto;
+    width:900px;
+    background:#FFF;
+}
+div#mainContent {
+    width:560px;
+    padding:20px;
+    float:left;
+}
+div#sideBar {
+    width:230px;
+    padding:20px;
+    margin-left:30px;
+    float:left;
+}
+.clear {
+    clear:both;
+}
+div#sticker {
+    padding:20px;
+    margin:20px 0;
+    background:#AAA;
+    width:190px;
+display:none;
+}
+.stick {
+    position:fixed;
+    top:0px;
+    z-index: 1000000;
 }
 
