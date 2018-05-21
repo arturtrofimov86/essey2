@@ -1884,6 +1884,113 @@ h3{
         left:3%;
         text-align:left;
     }
+    @media(max-width:1368px){
+    .arrow-down figure{
+        max-width:100px;
+        max-height: 100px;
+    }
+    h1{
+        font-size:50px;
+        padding:20px 0 20px;
+    }
+    .page-intro img{
+        width:300px;
+        height:300px;
+    }
+    .page-intro p{
+        font-size:24px;
+    }
+    .desc{
+        max-width:300px;
+        padding:10px;
+    }
+    .desc h3{
+        padding-bottom:10px;
+    }
+
+    .banana01{
+        width: 381px;
+        top: 50%;
+        z-index: 100000000;
+
+    }
+    .banana02{
+        width: 330px;
+        top: 60%;
+        z-index: 100000000;
+    }
+
+    .emoji{
+        width:100px;
+        height:100px;
+    }
+    .protein-bar{
+        width:276px;
+        top:71%;
+        left:15%;
+    }
+    .protein-bar2{
+        top:71%;
+        left:40%;
+    }
+    .protein-bar4{
+        top:71%;
+        left:25%;
+    }
+    .protein-bar3{
+        top:70%;
+        left:60%;
+    }
+    .sushi{
+        width:290px;
+    }
+    .water{
+        width:100px;
+    }
+    .man{
+        width:805px;
+    }
+    .last-photo{
+        width:300px;
+    }
+    .last-photo img{
+        width:100%;
+    }
+    #slide-4 .bcg {
+        background-image: url(img/photo/bg/pexels-photo-269141.jpg);
+        background-position: center -320px;
+    }
+
+    #slide-2 .bcg {
+        background-position: center -520px;
+    }
+    .cat4{
+        width:380px;
+    }
+    .cat2{
+        width:315px;
+    }
+    .cat5{
+        top: -48px;
+        width: 330px;
+    }
+    .cat3{
+        width: 472px;
+    }
+    .desc.desc-breaks {
+        max-width: 484px;
+        z-index: 1000000000;
+    }
+    .coffee {
+        width: 176px;
+    }
+    .laptop-img-wrap{
+        top:73%;
+    }
+    .laptop-img-close {
+        top: 29%;
+    }
+}
 }
 div#wrapper {
     margin:0 auto;
