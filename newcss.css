@@ -1897,11 +1897,11 @@ h3{
         top:6%;
     }
      .load-bar-per{
-        height: 70px;
-        left: 25%;
-        top: -4%;
-        width:385px;
-        max-width:385px;
+        height: 50px;
+        left: 18%;
+        top:8%;
+        width:396px;
+        max-width:396px;
     }
 }
 div#wrapper {
