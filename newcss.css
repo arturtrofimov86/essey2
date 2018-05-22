@@ -2020,19 +2020,24 @@ h3{
         top:-11%;
     }
     .line2{
-        top:-5%;
+        top:-2%;
     }
     .line3{
-        top:0;
+        top:7%;
     }
     .line4{
-        top:5%;
+        top:15%;
     }
     .line5{
-        top:10%;
+        top:24%;
     }
     .line6{
-        top:15%;
+        top:33%;
+    }
+    .battery1{
+        left:35%;
+        top:-1%;
+        
     }
 }
 div#wrapper {
