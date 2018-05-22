@@ -2000,6 +2000,7 @@ h3{
     .load-bar{
         width:385px;
         max-width:385px;
+        left:50%;
         top:6%;
     }
      .load-bar-per{
@@ -2008,6 +2009,30 @@ h3{
         top:8%;
         width:396px;
         max-width:396px;
+    }
+    .skype-window{
+        top:-13%;
+    }
+    .professor{
+        top:-8%;
+    }
+    .line1{
+        top:-11%;
+    }
+    .line2{
+        top:-5%;
+    }
+    .line3{
+        top:0;
+    }
+    .line4{
+        top:5%;
+    }
+    .line5{
+        top:10%;
+    }
+    .line6{
+        top:15%;
     }
 }
 div#wrapper {
