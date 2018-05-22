@@ -1890,6 +1890,19 @@ h3{
     .laptop-img-wrap{
         left:56%;
     }  
+    .load-bar{
+        width:385px;
+        max-width:385px;
+        left:41%;
+        top:6%;
+    }
+     .load-bar-per{
+        height: 70px;
+        left: 25%;
+        top: -4%;
+        width:385px;
+        max-width:385px;
+    }
 }
 div#wrapper {
     margin:0 auto;
