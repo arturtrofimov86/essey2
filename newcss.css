@@ -1888,17 +1888,17 @@ h3{
 }
 @media screen and (max-width:1368px\0) {
     .laptop-img-wrap{
-        left:56%;
+       width:600px;
+       top:45%;
     }  
     .load-bar{
         width:385px;
         max-width:385px;
-        left:41%;
         top:6%;
     }
      .load-bar-per{
         height: 50px;
-        left: 18%;
+        left:23%;
         top:8%;
         width:396px;
         max-width:396px;
