@@ -1622,360 +1622,377 @@ h3{
         height:50px;
     }
 }
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    body{
+@media(max-height:480px) and (max-width:640px){
+    .page-intro img {
+        width: 160px;
+        height: 160px;
+    }
+    #slide-2 .bcg {
+        background-position: center -245px;
+    }
+    .laptop-img-wrap {
+        width: 380px;
+        top: 103%;
+        left: 45%;
 
-    }
-    .laptop-img-wrap{
-        left:50%;
-        top:47%;
-        transform:translateX(-50%) translateY(-50%);
-        -webkit-transform:translateX(-50%) translateY(-50%);
-        width:800px;
-        height:880px;
-        z-index: 10000000;
-    }
-    .book{
-        width: 470px;
-    }
-    .book-one img{
-        width:100%;
     }
     .laptop-display{
-        text-align: center;
-        z-index: 100000;
-        max-width:752px;
-        max-height:436px;
-        top:30%;left:40%;
-        transform:translateX(-50%);
-        -webkit-transform:translateX(-50%);
+        top:18%;
     }
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+        body{
 
-    .laptop-display > img{
-        position: absolute !important;
+        }
+        .laptop-img-wrap{
+            left:50%;
+            top:47%;
+            transform:translateX(-50%) translateY(-50%);
+            -webkit-transform:translateX(-50%) translateY(-50%);
+            width:800px;
+            height:880px;
+            z-index: 10000000;
+        }
+        .book{
+            width: 470px;
+        }
+        .book-one img{
+            width:100%;
+        }
+        .laptop-display{
+            text-align: center;
+            z-index: 100000;
+            max-width:752px;
+            max-height:436px;
+            top:30%;left:40%;
+            transform:translateX(-50%);
+            -webkit-transform:translateX(-50%);
+        }
+
+        .laptop-display > img{
+            position: absolute !important;
+            z-index: 1000000;
+        }
+        .skype-window{
+            width: 450px;
+            width: 100%;
+            left: 53%;
+            top: -28%;
+            transform: translate(-50%); 
+        }
+        .load-bar{
+            width: 500px;
+            width: 100%;
+            left: 55%;
+            top: -6%;
+            transform: translate(-50%);
+        }
+        .red-line1{
+            left: 18%;
+            top: -3%;
+            width: 420px;
+        }
+        .red-line3{
+            right: 10%;
+            width: 100px;
+            top: -12%;
+        }
+        .red-line2{
+            left: 18%;
+            width: 300px;
+            top: 7%;
+        }
+        .red-line4{
+            left: 16%;
+            width: 250px;
+            top: -12%;
+        }
+        .red-line5{
+            left: 16%;
+            width: 150px;
+            top: -22%;
+        }
+        .red-line6{
+            right: 9%;
+            width: 150px;
+            top: -22%;
+        }
+        .red-line7{
+            right: 9%;
+            width: 150px;
+            top: 18%;
+        }
+        .red-line8{
+            left: 17%;
+            width: 150px;
+            top:28%;;
+        }
+        .red-line9{
+            left:34%;
+            width: 150px;
+            top:28%;
+        }
+        .line1{
+            left: 17%;
+            width: 550px;
+            top: -24%;
+            height: 20px;
+        }
+        .line2{
+            left: 17%;
+            width:550px;
+            top:-15%;
+            height:20px;
+        }
+        .line3{
+            left: 17%;
+            width:550px;
+            top:-5%;
+            height:20px;
+        }
+        .line4{
+            left: 17%;
+            width: 550px;
+            top: 5%;
+            height: 20px;
+        }
+        .line5 {
+            left: 17.4%;
+            width: 550px;
+            top: 16%;
+            height: 20px;
+        }
+        .line6{
+            left: 17.4%;
+            width: 550px;
+            top: 26%;
+            height: 20px;
+        }
+        .load-bar-per{
+            height: 70px;
+            left: 25%;
+            top: -4%;
+        }
+        .professor{
+            width: 100%;
+            left: 35%;
+            top: -20%;
+            width: 250px;
+        }
+        .banana01{
+            width:533px;  
+            top: 60%;
+            left: 10%;
+            z-index: 10000000;
+        }
+        .banana02{
+            width:500px;
+            top: 65%;
+            right:5%;
+            z-index: 10000000;
+        }
+        .banana01 img, .banana02 img{
+            width:100%;
+            height:100%;
+        }
+        .youtube{
+            width: 474px;
+            left: 22%;
+            top: -33%;
+        }
+        .cat-yt{
+            max-width: 390px;
+            left: 28%;
+            top: -25%;
+        }
+        .cat2{
+            left:0;
+            bottom:5%;
+            z-index: 100000;
+            width:600px;
+        }
+        .cat5{
+            top:0;
+            z-index: 100000;
+            width:388px;
+        }
+        .cat4{
+            top:-20%;
+            z-index: 100000;
+            width:600px;
+        }
+        .cat3{
+            bottom:-12%;
+            z-index: 100000001;
+            width:740px;
+        }
+        .cat1 img, .cat2 img, .cat3 img, .cat4 img, .cat5 img{
+            width:100%;
+        }
+        .battery1{
+            width: 370px;
+            left: 31%;
+            top: -16%;
+        }
+        .battery2{
+            width: 70px;
+            top: -9%;
+            left: 40%;
+        }
+        .emoji{
+            width:200px;
+            height:200px;
+            z-index: 1000000000;
+        }
+        .emoji img{
+            width:100%;
+            height:100%;
+        }
+        .emoji1{
+            left:32%;  
+        }
+        .emoji2{
+            right:8%;
+        }
+        .emoji3{
+            right:12%;
+            width:170px;
+            height:170px;
+        }
+        .emoji4{
+            right:20%;
+        }
+        .protein-bar{
+            width:400px;
+            left:11%;
+            z-index: 100000001;
+        }
+        .protein-bar2{
+            left:50%;
+        }
+        .protein-bar4{
+            left:30%;
+        }
+        .protein-bar3{
+            left:69%;
+        }
+        .protein-bar img, .coffee img, .sushi img, .water img, .man img{
+            width:100%;
+            height:100%;
+        }
+        .coffee{
+            width:300px;
+            z-index: 1000000000;
+        }
+        .coffee1{
+            top:40%;
+        }
+        .coffee2{
+            top:45%;
+        }
+        .coffee3 {
+            top: 46%;
+            z-index: 100000000;
+        }
+        .sushi{
+            width:550px;
+            z-index: 100000000;
+            top:64%;
+            left:30%;
+        }
+        .water{
+            width:200px;
+            z-index: 10000000;
+            top:26%;
+        }
+        .water1{
+            left:10%;
+        }
+        .water2{
+            right:10%;
+        }
+        .man{
+            left:50%;
+            transform:translate(-50%);
+            -webkit-transform:translate(-50%);
+            width:1300px;
+            z-index: 1000000000;
+            bottom:-20px;
+            margin:0;
+        }
+        .man img{
+            opacity: 0.7;
+        }
+        .last-photo{
+            right:20%;
+        }
+        .load-bar-per{
+
+        }
+        .time, .money{
+            z-index: 10000000;
+        }
+        .time{
+            bottom:3%;
+            left:3%;
+            text-align:left;
+        }
+
+    }
+    @media screen and (max-width:1368px\0) {
+        .laptop-img-wrap{
+            left:56%;
+        }  
+        .load-bar{
+            width:385px;
+            max-width:385px;
+            left:41%;
+            top:6%;
+        }
+        .load-bar-per{
+            height: 50px;
+            left: 18%;
+            top:8%;
+            width:396px;
+            max-width:396px;
+        }
+        .skype-window{
+            left:41%;
+            top:-14%;
+        }
+        .professor{
+            left:28%;
+            top:-7%;
+        }
+    }
+    div#wrapper {
+        margin:0 auto;
+        width:900px;
+        background:#FFF;
+    }
+    div#mainContent {
+        width:560px;
+        padding:20px;
+        float:left;
+    }
+    div#sideBar {
+        width:230px;
+        padding:20px;
+        margin-left:30px;
+        float:left;
+    }
+    .clear {
+        clear:both;
+    }
+    div#sticker {
+        padding:20px;
+        margin:20px 0;
+        background:#AAA;
+        width:190px;
+        display:none;
+    }
+    .stick {
+        position:fixed;
+        top:0px;
         z-index: 1000000;
     }
-    .skype-window{
-        width: 450px;
-        width: 100%;
-        left: 53%;
-        top: -28%;
-        transform: translate(-50%); 
-    }
-    .load-bar{
-        width: 500px;
-        width: 100%;
-        left: 55%;
-        top: -6%;
-        transform: translate(-50%);
-    }
-    .red-line1{
-        left: 18%;
-        top: -3%;
-        width: 420px;
-    }
-    .red-line3{
-        right: 10%;
-        width: 100px;
-        top: -12%;
-    }
-    .red-line2{
-        left: 18%;
-        width: 300px;
-        top: 7%;
-    }
-    .red-line4{
-        left: 16%;
-        width: 250px;
-        top: -12%;
-    }
-    .red-line5{
-        left: 16%;
-        width: 150px;
-        top: -22%;
-    }
-    .red-line6{
-        right: 9%;
-        width: 150px;
-        top: -22%;
-    }
-    .red-line7{
-        right: 9%;
-        width: 150px;
-        top: 18%;
-    }
-    .red-line8{
-        left: 17%;
-        width: 150px;
-        top:28%;;
-    }
-    .red-line9{
-        left:34%;
-        width: 150px;
-        top:28%;
-    }
-    .line1{
-        left: 17%;
-        width: 550px;
-        top: -24%;
-        height: 20px;
-    }
-    .line2{
-        left: 17%;
-        width:550px;
-        top:-15%;
-        height:20px;
-    }
-    .line3{
-        left: 17%;
-        width:550px;
-        top:-5%;
-        height:20px;
-    }
-    .line4{
-        left: 17%;
-        width: 550px;
-        top: 5%;
-        height: 20px;
-    }
-    .line5 {
-        left: 17.4%;
-        width: 550px;
-        top: 16%;
-        height: 20px;
-    }
-    .line6{
-        left: 17.4%;
-        width: 550px;
-        top: 26%;
-        height: 20px;
-    }
-    .load-bar-per{
-        height: 70px;
-        left: 25%;
-        top: -4%;
-    }
-    .professor{
-        width: 100%;
-        left: 35%;
-        top: -20%;
-        width: 250px;
-    }
-    .banana01{
-        width:533px;  
-        top: 60%;
-        left: 10%;
-        z-index: 10000000;
-    }
-    .banana02{
-        width:500px;
-        top: 65%;
-        right:5%;
-        z-index: 10000000;
-    }
-    .banana01 img, .banana02 img{
-        width:100%;
-        height:100%;
-    }
-    .youtube{
-        width: 474px;
-        left: 22%;
-        top: -33%;
-    }
-    .cat-yt{
-        max-width: 390px;
-        left: 28%;
-        top: -25%;
-    }
-    .cat2{
-        left:0;
-        bottom:5%;
-        z-index: 100000;
-        width:600px;
-    }
-    .cat5{
-        top:0;
-        z-index: 100000;
-        width:388px;
-    }
-    .cat4{
-        top:-20%;
-        z-index: 100000;
-        width:600px;
-    }
-    .cat3{
-        bottom:-12%;
-        z-index: 100000001;
-        width:740px;
-    }
-    .cat1 img, .cat2 img, .cat3 img, .cat4 img, .cat5 img{
-        width:100%;
-    }
-    .battery1{
-        width: 370px;
-        left: 31%;
-        top: -16%;
-    }
-    .battery2{
-        width: 70px;
-        top: -9%;
-        left: 40%;
-    }
-    .emoji{
-        width:200px;
-        height:200px;
-        z-index: 1000000000;
-    }
-    .emoji img{
-        width:100%;
-        height:100%;
-    }
-    .emoji1{
-        left:32%;  
-    }
-    .emoji2{
-        right:8%;
-    }
-    .emoji3{
-        right:12%;
-        width:170px;
-        height:170px;
-    }
-    .emoji4{
-        right:20%;
-    }
-    .protein-bar{
-        width:400px;
-        left:11%;
-        z-index: 100000001;
-    }
-    .protein-bar2{
-        left:50%;
-    }
-    .protein-bar4{
-        left:30%;
-    }
-    .protein-bar3{
-        left:69%;
-    }
-    .protein-bar img, .coffee img, .sushi img, .water img, .man img{
-        width:100%;
-        height:100%;
-    }
-    .coffee{
-        width:300px;
-        z-index: 1000000000;
-    }
-    .coffee1{
-        top:40%;
-    }
-    .coffee2{
-        top:45%;
-    }
-    .coffee3 {
-        top: 46%;
-        z-index: 100000000;
-    }
-    .sushi{
-        width:550px;
-        z-index: 100000000;
-        top:64%;
-        left:30%;
-    }
-    .water{
-        width:200px;
-        z-index: 10000000;
-        top:26%;
-    }
-    .water1{
-        left:10%;
-    }
-    .water2{
-        right:10%;
-    }
-    .man{
-        left:50%;
-        transform:translate(-50%);
-        -webkit-transform:translate(-50%);
-        width:1300px;
-        z-index: 1000000000;
-        bottom:-20px;
-        margin:0;
-    }
-    .man img{
-        opacity: 0.7;
-    }
-    .last-photo{
-        right:20%;
-    }
-    .load-bar-per{
-
-    }
-    .time, .money{
-        z-index: 10000000;
-    }
-    .time{
-        bottom:3%;
-        left:3%;
-        text-align:left;
-    }
-
-}
-@media screen and (max-width:1368px\0) {
-    .laptop-img-wrap{
-        left:56%;
-    }  
-    .load-bar{
-        width:385px;
-        max-width:385px;
-        left:41%;
-        top:6%;
-    }
-    .load-bar-per{
-        height: 50px;
-        left: 18%;
-        top:8%;
-        width:396px;
-        max-width:396px;
-    }
-    .skype-window{
-        left:41%;
-        top:-14%;
-    }
-    .professor{
-        left:28%;
-        top:-7%;
-    }
-}
-div#wrapper {
-    margin:0 auto;
-    width:900px;
-    background:#FFF;
-}
-div#mainContent {
-    width:560px;
-    padding:20px;
-    float:left;
-}
-div#sideBar {
-    width:230px;
-    padding:20px;
-    margin-left:30px;
-    float:left;
-}
-.clear {
-    clear:both;
-}
-div#sticker {
-    padding:20px;
-    margin:20px 0;
-    background:#AAA;
-    width:190px;
-    display:none;
-}
-.stick {
-    position:fixed;
-    top:0px;
-    z-index: 1000000;
-}
 
