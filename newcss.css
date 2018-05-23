@@ -1556,7 +1556,8 @@ h3{
     }
     .man {
         width: 426px;
-        bottom: -5%;
+        left: 50%;
+        bottom: -3%;
     }
     .laptop-img-close.top {
         top: -2%;
@@ -1585,6 +1586,14 @@ h3{
     }
     .links-content a {
         line-height: 11px;
+    }
+    .arrow-down{
+        right: 1px;
+        top: 98px; 
+    }
+    .arrow-down figure{
+        width:50px;
+        height:50px;
     }
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
@@ -1884,160 +1893,32 @@ h3{
         left:3%;
         text-align:left;
     }
-  
+
 }
 @media screen and (max-width:1368px\0) {
-     .arrow-down figure{
-        max-width:100px;
-        max-height: 100px;
-    }
-    h1{
-        font-size:50px;
-        padding:20px 0 20px;
-    }
-    .page-intro img{
-        width:300px;
-        height:300px;
-    }
-    .page-intro p{
-        font-size:24px;
-    }
-    .desc{
-        max-width:300px;
-        padding:10px;
-    }
-    .desc h3{
-        padding-bottom:10px;
-    }
-
-    .banana01{
-        width: 381px;
-        top: 50%;
-        z-index: 100000000;
-
-    }
-    .banana02{
-        width: 330px;
-        top: 60%;
-        z-index: 100000000;
-    }
-
-    .emoji{
-        width:100px;
-        height:100px;
-    }
-    .protein-bar{
-        width:276px;
-        top:71%;
-        left:15%;
-    }
-    .protein-bar2{
-        top:71%;
-        left:40%;
-    }
-    .protein-bar4{
-        top:71%;
-        left:25%;
-    }
-    .protein-bar3{
-        top:70%;
-        left:60%;
-    }
-    .sushi{
-        width:290px;
-    }
-    .water{
-        width:100px;
-    }
-    .man{
-        width:805px;
-    }
-    .last-photo{
-        width:300px;
-    }
-    .last-photo img{
-        width:100%;
-    }
-    #slide-4 .bcg {
-        background-image: url(img/photo/bg/pexels-photo-269141.jpg);
-        background-position: center -320px;
-    }
-
-    #slide-2 .bcg {
-        background-position: center -520px;
-    }
-    .cat4{
-        width:380px;
-    }
-    .cat2{
-        width:315px;
-    }
-    .cat5{
-        top: -48px;
-        width: 330px;
-    }
-    .cat3{
-        width: 472px;
-    }
-    .desc.desc-breaks {
-        max-width: 484px;
-        z-index: 1000000000;
-    }
-    .coffee {
-        width: 176px;
-    }
     .laptop-img-wrap{
-        top:73%;
-    }
-    .laptop-img-close {
-        top: 29%;
-    }
-
-    .laptop-img-wrap{
-       width:600px;
-       top:45%;
+        left:56%;
     }  
     .load-bar{
         width:385px;
         max-width:385px;
-        left:50%;
+        left:41%;
         top:6%;
     }
-     .load-bar-per{
+    .load-bar-per{
         height: 50px;
-        left:23%;
+        left: 18%;
         top:8%;
         width:396px;
         max-width:396px;
     }
     .skype-window{
-        top:-13%;
+        left:41%;
+        top:-14%;
     }
     .professor{
-        top:-8%;
-    }
-    .line1{
-        top:-11%;
-    }
-    .line2{
-        top:-2%;
-    }
-    .line3{
-        top:7%;
-    }
-    .line4{
-        top:15%;
-    }
-    .line5{
-        top:24%;
-    }
-    .line6{
-        top:33%;
-    }
-    .battery1{
-        left:35%;
-        top:-1%;
-        
+        left:28%;
+        top:-7%;
     }
 }
 div#wrapper {
@@ -2064,7 +1945,7 @@ div#sticker {
     margin:20px 0;
     background:#AAA;
     width:190px;
-display:none;
+    display:none;
 }
 .stick {
     position:fixed;
