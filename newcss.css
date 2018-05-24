@@ -1379,6 +1379,9 @@ h3{
     }
 }
 @media(max-width:480px){
+    .bcg {
+  background:url(img/bg-1-mob.png) no-repeat 0 0  / 100% !important;
+}
     .protein-bar1{
         top:42%;
     }
@@ -1579,7 +1582,7 @@ h3{
     }
     .book {
         max-width: 280px;
-        margin:0 20px 0 0;
+       margin: 0 100px 0 0;
     }
     .cat1, .cat2, .cat3, .cat4, .cat5{
         z-index: 1100000111;
@@ -1657,6 +1660,7 @@ h3{
         max-width: 243px;
         margin: 0 184px 0 0;
     }
+}
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
         body{
 
