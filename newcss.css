@@ -1379,7 +1379,7 @@ h3{
     }
 }
 @media(max-width:480px){
-    .bcg {
+    #slide-2 .bcg {
   background:url(img/bg-1-mob.png) no-repeat 0 0  / 100% !important;
 }
     .protein-bar1{
@@ -1578,7 +1578,7 @@ h3{
         bottom: -3%;
     }
     .laptop-img-close.top {
-        top: -2%;
+       top: 16%;
     }
     .book {
         max-width: 280px;
@@ -1625,7 +1625,7 @@ h3{
         height:50px;
     }
 }
-@media(max-height:480px) and (max-width:640px){
+@media(max-height:480px){
     .page-intro img {
         width: 160px;
         height: 160px;
