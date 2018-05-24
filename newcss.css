@@ -1639,6 +1639,24 @@ h3{
     .laptop-display{
         top:18%;
     }
+}
+@media(max-height:377px){
+    .page-intro h1 {
+        padding: 8px 0 6px 0;
+    }
+    .laptop-img-wrap {
+        width: 330px;
+        top: 117%;
+        left: 46%;
+    }
+    .laptop-display {
+        top: 18%;
+        left:36%;
+    }
+    .book {
+        max-width: 243px;
+        margin: 0 184px 0 0;
+    }
     @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
         body{
 
