@@ -1655,14 +1655,21 @@ h3{
         top:18%;
     }
 }
+@media(max-width:480px) and (min-height:377px){
+    .desc {
+        max-width: 150px;
+    }
+}
 @media(max-height:377px){
     .page-intro h1 {
         padding: 8px 0 6px 0;
+        font-size: 40px;
+        line-height: 50px;
     }
     .laptop-img-wrap {
-        width: 330px;
-        top: 117%;
-        left: 46%;
+        width: 285px;
+        top: 130%;
+        left: 41%;
     }
     .laptop-display {
         top: 18%;
@@ -1672,7 +1679,18 @@ h3{
         max-width: 243px;
         margin: 0 184px 0 0;
     }
+    .time div:first-of-type, .money div:first-of-type{
+        font-size:14px;
+    }
+    .time div:last-of-type, .money div:last-of-type {
+        font-size: 35px;
+    }
+    .desc h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
 }
+
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     body{
 
