@@ -1238,7 +1238,12 @@ h3{
     }
 }
 @media(max-width:640px){
-
+  #slide-2 .bcg {
+        background:url(img/bg-1-mob.png) no-repeat 0 0  / 100% !important;
+    }
+    #slide-4 .bcg {
+        background:url(img/bg-2-mob.png) no-repeat 0 100%  / 100% !important;
+    }
     .load-bar-per {
         height: 20px;
         left: 26%;
@@ -1381,12 +1386,7 @@ h3{
     }
 }
 @media(max-width:480px){
-    #slide-2 .bcg {
-        background:url(img/bg-1-mob.png) no-repeat 0 0  / 100% !important;
-    }
-    #slide-4 .bcg {
-        background:url(img/bg-2-mob.png) no-repeat 0 100%  / 100% !important;
-    }
+ 
     .protein-bar1{
         top:42%;
     }
@@ -1630,6 +1630,7 @@ h3{
         height:50px;
     }
 }
+
 @media(max-width:380px){
     .laptop-img-wrap {
         width: 300px;
@@ -1637,10 +1638,21 @@ h3{
         left: 39%;
     }
 }
+@media(max-width:640px)and (max-height:960px){
+    .laptop-img-wrap{
+        top:74%;
+    }
+}
+@media(max-width:640px)and (max-height:480px){
+    .laptop-img-wrap{
+        top:109%;
+        width:380px;
+    }
+}
 @media(max-height:480px){
     .desc h3{
         font-size: 30px;
-line-height: 26px;
+        line-height: 26px;
     }
     .page-intro h1{
         font-size: 50px;
@@ -1654,11 +1666,8 @@ line-height: 26px;
     #slide-2 .bcg {
         background-position: center -245px;
     }
-    .laptop-img-wrap{
-        top:109%;
-    }
     .laptop-display{
-        top:18%;
+        top:19%;
     }
 }
 @media(max-width:480px) and (max-height:377px){
