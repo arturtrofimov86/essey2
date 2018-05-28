@@ -1238,7 +1238,7 @@ h3{
     }
 }
 @media(max-width:640px){
-  #slide-2 .bcg {
+    #slide-2 .bcg {
         background:url(img/bg-1-mob.png) no-repeat 0 0  / 100% !important;
     }
     #slide-4 .bcg {
@@ -1386,7 +1386,7 @@ h3{
     }
 }
 @media(max-width:480px){
- 
+
     .protein-bar1{
         top:42%;
     }
@@ -1647,6 +1647,12 @@ h3{
     .laptop-img-wrap{
         top:109%;
         width:380px;
+    }
+}
+@media(max-width:480px)and (max-height:640px){
+    .laptop-img-wrap{
+        top: 95%;
+        width: 310px;
     }
 }
 @media(max-height:480px){
