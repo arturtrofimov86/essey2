@@ -1950,6 +1950,14 @@ h3{
         z-index: 10000000001;
     }
 }
+@media(max-width:320px) and (max-height:500px){
+    .laptop-img-wrap{
+        top:108% !important;
+    }
+    .laptop-display {
+    top: 19.7%;
+}
+}
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     body{
 
