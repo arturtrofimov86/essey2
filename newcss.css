@@ -1630,6 +1630,16 @@ h3{
     .protein-bar3 {
         left: 61%;
     }
+    .banana01 {
+    width: 200px;
+}
+.banana02 {
+    right: -4%;
+    width: 180px;
+}
+.last-photo{
+    margin-top:30%;
+}
 }
 @media(max-width:480px){
 
