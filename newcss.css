@@ -1464,13 +1464,13 @@ h3{
         width:40%;
     }
     .last-photo {
-    width: 194px;
-}
-.laptop-img-close.top {
-       top: 12%;
-    width: 244px;
-    left: 17%;
-}
+        width: 194px;
+    }
+    .laptop-img-close.top {
+        top: 12%;
+        width: 244px;
+        left: 17%;
+    }
 }
 @media(max-width:640px) and (max-height:400px){
     .laptop-img-wrap {
@@ -2019,6 +2019,60 @@ h3{
     }
 
 }
+@media(max-width:568px) and (max-height:320px){
+    red-line1 {
+        top: -16%;
+    }
+    .red-line2{
+        top:-26%;
+    }
+    .red-line3 {
+        top: -17%;
+    }
+    .red-line4 {
+        top: -22%;
+    }
+    .red-line7{
+        top:-25%;
+    }
+    .red-line8{
+        top:-31%;
+    }
+    .red-line9{
+        top:-13%;
+    }
+    .cat3 {
+        width: 169px;
+        bottom: -11%;
+    }
+    .cat5 {
+        width: 151px;
+    }
+    .cat2 {
+        width: 124px;
+    }
+    .cat4 {
+        width: 146px;
+        top: -12%;
+    }
+    .youtube {
+        left: 15%;
+        width: 164px;
+        top: -34%;
+    }
+    .cat-yt {
+        max-width: 120px;
+        left:23%;
+        top: -30%;
+    }
+    .battery1 {
+        max-width: 112px;
+    }
+    .man {
+    left: 53%;
+    width:400px;
+}
+}
 @media(max-height:377px){
 
 }
@@ -2046,6 +2100,19 @@ h3{
     .laptop-display {
         top: 19.7%;
     }
+    .time div:first-of-type, .money div:first-of-type {
+        font-size:16px;
+        line-height:16px;
+    }
+    .time div:last-of-type, .money div:last-of-type {
+        font-size: 27px;
+        font-weight: 700;
+    }
+    .links-content a {
+        line-height: 9px;
+        font-size:8px;
+    }
+
 }
 @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
     body{
