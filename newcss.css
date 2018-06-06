@@ -109,7 +109,6 @@ h3{
 .bcg {
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
     -wekbit-background-size: cover;
     height: 100%;
@@ -139,7 +138,7 @@ h3{
 }
 #slide-4 .bcg{
     background-image:url(img/photo/bg/pexels-photo-269141.jpg);  
-    background-position: center -440px;
+    background-position: center 0%;
 }
 #slide-5 .bcg{
     background-image:url(img/photo/bg/bar-local-cong-ireland-63633.jpg);  
@@ -1332,12 +1331,19 @@ h3{
         line-height: 24px;
         font-size: 12px;
     }
+    .laptop-img-close.top {
+        top: 26%;
+    }
+    .last-photo {
+        width: 289px;
+        margin-top: 24%;
+    }
 }
 @media(max-width:800px) and (max-height:420px){
     .laptop-img-wrap{
         width: 320px;
         top: 126%;
-        left: 43%; 
+        left: 45%; 
     }
     .line1 {
         left: 16%;
@@ -1466,18 +1472,29 @@ h3{
     }
     .last-photo {
         width: 194px;
+        margin-top:0;
     }
     .laptop-img-close.top {
         top: 12%;
         width: 244px;
         left: 17%;
+
     }
 }
 @media(max-width:640px) and (max-height:400px){
     .laptop-img-wrap {
         top: 124%!important;
         width: 335px !important;
-    }  
+    } 
+    .laptop-img-close.top {
+        top: 16%;
+    }
+    .last-photo {
+        width: 168px !important;
+    }
+    .links-content a{
+        padding-bottom:1px;
+    }
 }
 
 @media(max-width:640px){
@@ -1693,6 +1710,22 @@ h3{
         max-width: 200px;
         margin: 0px 152px 0 0;
     }
+    .coffee1 {
+        top: 49%;
+    }
+    .coffee2 {
+        top: 50%;
+    }
+    .coffee3 {
+        top: 40%;
+    }
+    .protein-bar{
+        width:154px !important;
+        margin:0;
+    }
+    .protein-bar1{
+        left:4%;
+    }
 }
 @media(max-width:420px) and (max-height:740px){
     .laptop-img-wrap{
@@ -1716,7 +1749,7 @@ h3{
         margin-top:30%;
     }
     .laptop-img-close.top {
-        top: -2% !important;
+        top: 17% !important;
     }
 }
 @media(max-width:480px){
