@@ -537,7 +537,7 @@ h3{
 .time div:first-of-type, .money div:first-of-type{
     color:rgba(0, 0, 0 , 0.5);
     font-family: Roboto;
-    font-size: 23px;
+    font-size: 26px;
     font-weight: 400;
     line-height: 33px;
     text-transform: uppercase;  
@@ -545,7 +545,7 @@ h3{
 .time div:last-of-type, .money div:last-of-type{
     color: #282828;
     font-family: Amatic SC;
-    font-size: 64px;
+    font-size: 68px;
     font-weight: 700;
 }
 .last-photo{
@@ -565,7 +565,7 @@ h3{
     text-align: left;
     padding-bottom:10px;
     color:#0c3eb1;
-    font-size:12px;
+    font-size:19px;
     font-family: Roboto;
 }
 .links-content .left-col{
@@ -2017,6 +2017,9 @@ h3{
     .laptop-img-wrap{
         top: 95%;
         width: 310px;
+    }
+    .water{
+        margin-top:28%;
     }
 
 }
