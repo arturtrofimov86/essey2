@@ -2238,13 +2238,13 @@ h3{
     top: -22%;
 }
 .youtube {
-    left:26%;
+    left: 18%;
     width: 164px;
-    top: -34%;
+    top: -38%;
 }
 .cat-yt{
-        left: 23%;
-    top: -36%;
+    left: 26%;
+    top: -34%;
 }
 }
 @media(max-width:320px) and (max-height:500px){
