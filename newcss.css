@@ -2216,6 +2216,13 @@ h3{
 .laptop-img-close {
     top: 20%;
 }
+.time div:first-of-type, .money div:first-of-type {
+    font-size: 17px;
+}
+.time div:last-of-type, .money div:last-of-type {
+    font-size: 40px;
+    font-weight: 700;
+}
 }
 @media(max-height:377px){
 
