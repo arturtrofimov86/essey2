@@ -2213,6 +2213,9 @@ h3{
     left: 15% !important;
     top: -23% !important;
 }
+.laptop-img-close {
+    top: 20%;
+}
 }
 @media(max-height:377px){
 
