@@ -2261,6 +2261,9 @@ h3{
     left: 26%;
     top: -34%;
 }
+.links-content a{
+    font-size:10px;
+}
 }
 @media(max-width:320px) and (max-height:500px){
     .laptop-img-wrap{
