@@ -2208,6 +2208,11 @@ h3{
     .protein-bar {
         width: 126px;
     }
+    .load-bar-per {
+    height: 19px !important;
+    left: 15% !important;
+    top: -23% !important;
+}
 }
 @media(max-height:377px){
 

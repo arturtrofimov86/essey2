@@ -308,7 +308,7 @@ and open the template in the editor.
                 <img class="battery1" data-27200='opacity:0;' data-28000='opacity:1;' data-30000='opacity:1;' data-30300="opacity:0;" src="img/svg/11-battery03.svg">
             </figure>
             <img class="laptop-img" data-119="opacity:0" data-120="opacity:1" data-43500="opacity:1" data-45099="opacity:1" data-45600="opacity:0" src="img/svg/02-laptop.svg"/>
-            <img class="laptop-img-close" data-46000="opacity:0;" data-47200="opacity:1; margin-top:0" data-47500="margin-top:-5%; display:block;" data-48000="margin-top:-10%; display:none;" data-48500="maring-top:-15%" data-49000="margin-top:-20%" src="img/svg/17-laptop.svg"/>
+            <img class="laptop-img-close" data-46000="opacity:0;" data-47200="opacity:1; margin-top:0" data-47500="margin-top:-5%; display:block; top:43%" data-48000="margin-top:-10%; display:none; top:143%" data-48500="maring-top:-15%" data-49000="margin-top:-20%" src="img/svg/17-laptop.svg"/>
         </figure>
         <div class="time" data-1000="opacity:0;" data-1200="opacity:1;" data-45000="bottom:3%; left:2%" data-47699="bottom:3%" data-47700="bottom:80%; left:10%;">
             <div>Time</div>
@@ -320,7 +320,7 @@ and open the template in the editor.
         </div>
         
           <div class="mobile-visible" data-47000="height:0" data-47500="height:100%"></div>
-        <div class="links-content clearfix" data-47500="opacity:0" data-48000="opacity:1;" data-48500="opacity:1; z-index:1000002;">
+        <div class="links-content clearfix" data-47500="opacity:0" data-48000="opacity:0;" data-48500="opacity:1; z-index:1000002;">
             <div class="left-col">
                 <a href="#">https://www.numbeo.com/cost-of-living/in/San-Francisco</a>
                 <a href="#"> https://www.st-andrews.ac.uk/media/capod/students/academicskills/Stages%20of%20Writing
@@ -437,26 +437,9 @@ and open the template in the editor.
                 if ($(window).scrollTop() >= 93000) {
                     $('.money span').text('$43.32');
                 }
-                if ($(window).scrollTop() >= 46000) {
-                    $('.laptop-img-close').addClass('top');
-                } else {
-                    $('.laptop-img-close').removeClass('top');
-                }
+             
             });
 
-            $(document).ready(function () {
-                var s = $("#sticker");
-                var pos = s.position();
-                $(window).scroll(function () {
-                    var windowpos = $(window).scrollTop();
-                    s.html("Distance from top:" + pos.top + "<br />Scroll position: " + windowpos);
-                    if (windowpos >= pos.top) {
-                        s.addClass("stick");
-                    } else {
-                        s.removeClass("stick");
-                    }
-                });
-            });
 
         </script>
     </body>
